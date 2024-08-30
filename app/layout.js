@@ -1,4 +1,4 @@
-import { Arapey, Assistant } from "next/font/google";
+import { Arapey, Assistant , Nunito} from "next/font/google";
 import "./globals.css";
 
 
@@ -14,6 +14,11 @@ const assistant = Assistant({
   subsets: ["latin"],
   display: 'swap',
   variable: '--font-assistant',
+});
+const nunito = Nunito({
+  subsets: ["latin"],
+  display: 'swap',
+  variable: '--font-nunito',
 });
 
 export const metadata = {

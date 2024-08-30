@@ -30,18 +30,19 @@
          <header className='pb-20'>
            <h2 className='text-secondary font-arapey text-3xl md:text-5xl'>Nuestro proceso</h2>
          </header>
-         <div className="flex flex-wrap justify-center space-y-4 md:space-x-4 md:space-y-4 lg:space-y-0 lg:justify-around">
+         {/* <div className="flex flex-wrap justify-center space-y-4 md:space-x-4 md:space-y-4 lg:space-y-0 lg:justify-around"> */}
+         <div className="grid  gap-6 grid-cols-1 justify-items-center items-center md:grid-cols-2 lg:grid-cols-3">
            {OurProcess.map((value, index) => (
              <div
                key={index}
-               className={`flex flex-col items-center p-4 rounded-md  max-w-xs h-80 border-2 border-secondary hover:shadow-md hover:shadow-secondary transition-all ease-linear duration-300 `}
+               className={`flex flex-col items-center p-4 rounded-md  max-w-sm h-[340px] md:h-[350px] border-2 border-secondary hover:shadow-md hover:shadow-secondary transition-all ease-linear duration-300 `}
 
              >
                <div className="flex items-center mb-4 ">
                  <Image src={value.iconSrc} className="w-16" unoptimized />
-                 <h6 className="text-2xl font-semibold text-secondary">{value.title}</h6>
+                 <h6 className="text-2xl md:text-3xl text-secondary font-arapey">{value.title}</h6>
                </div>
-               <p className="text-gray text-left">{value.detail}</p>
+               <p className="text-gray text-left font-assistant text-lg md:text-xl">{value.detail}</p>
              </div>
            ))}
          </div>
