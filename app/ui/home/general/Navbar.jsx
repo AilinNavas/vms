@@ -27,40 +27,40 @@ const Navbar = () => {
 
         {/* larger screen navigation */}
 
-<div className="flex justify-end items-center">
-        <ul className="hidden md:flex text-[20px] text-secondary space-x-6">
+        <div className="flex justify-end items-center">
+          <ul className="hidden md:flex text-[20px] text-secondary space-x-6">
 
-          <li className=" hover:text-gray ease-in-out duration-300">
-            <Link href={'/'}>Sobre nosotros
+            <li className=" hover:text-gray ease-in-out duration-300">
+              <Link href={'/'}>Sobre nosotros
+              </Link>
+            </li>
+
+            <li className=" hover:text-gray ease-in-out duration-300">
+              <Link href={'/tradicional'}>Cortina Tradicional</Link>
+            </li>
+
+            <li className=" hover:text-gray ease-in-out duration-300">
+              <Link href={'/'}>Cortina Roller</Link>
+            </li>
+
+            <li className=" hover:text-gray ease-in-out duration-300">
+              <Link href={'/'}>Bandas Verticales</Link>
+            </li>
+
+            <li className=" hover:text-gray ease-in-out duration-300">
+              <Link href={'/'}>Paneles Orientales</Link>
+            </li>
+
+            <li className=" hover:text-gray ease-in-out duration-300">
+              <Link href={'/'}>Toldos Verticales</Link>
+            </li>
+          </ul>
+
+          <div className="hidden md:flex">
+            <Link href={'/'}>
+              <button className="rounded-full px-6 py-2 text-lg font-assistant bg-secondary text-primary  font-semibold border-secondary border-2 hover:bg-transparent hover:text-secondary ease-in duration-300">Contactar</button>
             </Link>
-          </li>
-
-          <li className=" hover:text-gray ease-in-out duration-300">
-            <Link href={'/'}>Cortina Tradicional</Link>
-          </li>
-
-          <li className=" hover:text-gray ease-in-out duration-300">
-            <Link href={'/'}>Cortina Roller</Link>
-          </li>
-
-          <li className=" hover:text-gray ease-in-out duration-300">
-            <Link href={'/'}>Bandas Verticales</Link>
-          </li>
-
-          <li className=" hover:text-gray ease-in-out duration-300">
-            <Link href={'/'}>Paneles Orientales</Link>
-          </li>
-
-          <li className=" hover:text-gray ease-in-out duration-300">
-            <Link href={'/'}>Toldos Verticales</Link>
-          </li>
-        </ul>
-
-        <div className="hidden md:flex">
-          <Link href={'/'}>
-            <button className="rounded-full px-6 py-2 text-lg font-assistant bg-secondary text-primary  font-semibold border-secondary border-2 hover:bg-transparent hover:text-secondary ease-in duration-300">Contactar</button>
-          </Link>
-        </div>
+          </div>
         </div>
 
         {/* smaller screens - navigation icons */}
@@ -73,12 +73,12 @@ const Navbar = () => {
 
         </div>
 
-        
+
         {/* smaller screens */}
         <div className={
           menuIcon ? 'md:hidden absolute top-32 right-0 bottom-0 left-0 flex justify-start items-start w-full h-screen z-10 bg-primary text-secondary ease-in-out duration-300'
-          :
-          'md:hidden  absolute top-32 right-0 left-[100%] flex justify-center items-center w-full h-screen text-center bg-primary z-10 text-secondary ease-in-out duration-300'
+            :
+            'md:hidden  absolute top-32 right-0 left-[100%] flex justify-center items-center w-full h-screen text-center bg-primary z-10 text-secondary ease-in-out duration-300'
         }>
 
           <div className="w-full text-center text-2xl font-arapey">
@@ -103,8 +103,8 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="py-5">
-          <button className="rounded-full font-assistant px-6 py-2 bg-secondary text-primary text-lg font-semibold">Contactar</button>
-          </div>
+              <button className="rounded-full font-assistant px-6 py-2 bg-secondary text-primary text-lg font-semibold">Contactar</button>
+            </div>
           </div>
 
         </div>

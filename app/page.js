@@ -4,23 +4,29 @@ import Footer from "./ui/home/general/Footer";
 import InfoBottom from "./ui/home/general/InfoBottom";
 import InfoTop from "./ui/home/general/InfoTop";
 import Navbar from "./ui/home/general/Navbar";
+import Whatsapp from "./ui/home/general/Whatsapp";
 import GetAQuote from "./ui/home/GetAQuote";
 import Hero from "./ui/home/Hero";
 import OurProcess from "./ui/home/OurProcess";
 import ProductSection from "./ui/home/ProductSection";
 import WhyChooseUs from "./ui/home/WhyChooseUs";
+import FaqsHome from "./ui/data/faqsHome";
+
 
 export default function Home() {
   return (
     <main className="">
       <InfoTop />
       <Navbar />
+      <Whatsapp />
       <Hero />
       <OurProcess />
       <ProductSection />
       <WhyChooseUs />
       <ContactUs />
-      <Faqs />
+      <Faqs  title="Preguntas Frecuentes"
+      description="Aquí tienes algunas preguntas comunes sobre nuestros servicios."
+      items={FaqsHome}/>
       <GetAQuote />
       <Footer />
       <InfoBottom />

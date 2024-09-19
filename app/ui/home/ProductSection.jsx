@@ -51,7 +51,7 @@ const ProductSection = () => {
   return (
     <section className='bg-primary'>
        <div className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center border-2 border-yellow-400'>
-         <header className='pb-20'>
+         <header className='pb-8'>
            <h2 className='text-secondary font-arapey text-3xl md:text-5xl'>Nuestros Cortinados</h2>
          </header>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

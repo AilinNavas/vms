@@ -43,7 +43,7 @@ const AccordionItem = ({ question, answer }) => {
 );
 };
 
-const Accordion = ({ items }) => {
+const Accordion = ({ items = [] }) => {
   return (
     <div className="space-y-4 lg:max-w-5xl">
       {items.map((item, index) => (
