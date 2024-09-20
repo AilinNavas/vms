@@ -12,7 +12,7 @@ import galleryData from "../ui/data/galleryData";
 import benefitsData from "../ui/data/benefitsData";
 import InfoBottom from "../ui/home/general/InfoBottom";
 
-export default function Home() {
+export default function ToldoVertical() {
   const { title, description, images } = galleryData.tradicional;
   return (
     <main className="">
@@ -21,15 +21,14 @@ export default function Home() {
       <HeroProducts />
       <SliderTrust />
       <Values />
-      <Benefits benefits={benefitsData.tradicional}/>
+      <Benefits benefits={benefitsData.toldosVerticales} />
       <SliderTrust />
       <Values />
-  
       <Gallery title={title} description={description} images={images} />
+      <WhatsappForm />
       <Faqs title="Preguntas Frecuentes "
-        description="Aquí tienes algunas preguntas comunes sobre nuestros cortinados tradicionales."
+        description=""
         items={FaqsTradicional} />
-            <WhatsappForm />
       <InfoBottom />
 
 

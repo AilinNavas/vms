@@ -25,7 +25,7 @@ export default function Home() {
       <WhyChooseUs />
       <ContactUs />
       <Faqs  title="Preguntas Frecuentes"
-      description="Aquí tienes algunas preguntas comunes sobre nuestros servicios."
+      description=""
       items={FaqsHome}/>
       <GetAQuote />
       <Footer />

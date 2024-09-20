@@ -30,30 +30,29 @@ const Navbar = () => {
         <div className="flex justify-end items-center">
           <ul className="hidden md:flex text-[20px] text-secondary space-x-6">
 
-            <li className=" hover:text-gray ease-in-out duration-300">
-              <Link href={'/'}>Sobre nosotros
-              </Link>
-            </li>
+          <Link href={'/'}><li className=" hover:text-gray ease-in-out duration-300">
+              Sobre nosotros
+              </li></Link>
 
-            <li className=" hover:text-gray ease-in-out duration-300">
-              <Link href={'/tradicional'}>Cortina Tradicional</Link>
-            </li>
+            <Link href={'/tradicional'}><li className=" hover:text-gray ease-in-out duration-300">
+              Cortina Tradicional
+            </li></Link>
 
-            <li className=" hover:text-gray ease-in-out duration-300">
-              <Link href={'/'}>Cortina Roller</Link>
-            </li>
+            <Link href={'/roller'}><li className=" hover:text-gray ease-in-out duration-300">
+             Cortina Roller
+            </li></Link>
 
-            <li className=" hover:text-gray ease-in-out duration-300">
-              <Link href={'/'}>Bandas Verticales</Link>
-            </li>
+            <Link href={'/bandas-verticales'}><li className=" hover:text-gray ease-in-out duration-300">
+              Bandas Verticales
+            </li></Link>
 
-            <li className=" hover:text-gray ease-in-out duration-300">
-              <Link href={'/'}>Paneles Orientales</Link>
-            </li>
+            <Link href={'/paneles-orientales'}><li className=" hover:text-gray ease-in-out duration-300">
+              Paneles Orientales
+            </li></Link>
 
-            <li className=" hover:text-gray ease-in-out duration-300">
-              <Link href={'/'}>Toldos Verticales</Link>
-            </li>
+            <Link href={'/toldos-verticales'}> <li className=" hover:text-gray ease-in-out duration-300">
+            Toldos Verticales
+            </li></Link>
           </ul>
 
           <div className="hidden md:flex">
@@ -83,24 +82,23 @@ const Navbar = () => {
 
           <div className="w-full text-center text-2xl font-arapey">
             <ul>
-              <li onClick={handleSmallerScreenNavigation} className="pb-5 pt-10">
-                <Link href={'/'}>Sobre nosotros</Link>
-              </li>
-              <li onClick={handleSmallerScreenNavigation} className="py-5">
-                <Link href={'/'}>Cortina Tradicional</Link>
-              </li>
-              <li onClick={handleSmallerScreenNavigation} className="py-5">
-                <Link href={'/'}>Cortina Roller</Link>
-              </li>
-              <li onClick={handleSmallerScreenNavigation} className="py-5">
-                <Link href={'/'}>Bandas Verticales</Link>
-              </li>
-              <li onClick={handleSmallerScreenNavigation} className="py-5">
-                <Link href={'/'}>Toldos Verticales</Link>
-              </li>
-              <li onClick={handleSmallerScreenNavigation} className="py-5">
-                <Link href={'/'}>Paneles Ortientales</Link>
-              </li>
+            <Link href={'/'}><li onClick={handleSmallerScreenNavigation} className="pb-5 pt-10">
+                Sobre nosotros</li></Link>
+                <Link href={'/tradicional'}><li onClick={handleSmallerScreenNavigation} className="py-5">
+                Cortina Tradicional </li></Link>
+             
+                <Link href={'/roller'}><li onClick={handleSmallerScreenNavigation} className="py-5">
+             Cortina Roller </li></Link>
+             
+             <Link href={'/bandas-verticales'}><li onClick={handleSmallerScreenNavigation} className="py-5">
+              Bandas Verticales</li></Link>
+              
+              <Link href={'/toldos-verticales'}><li onClick={handleSmallerScreenNavigation} className="py-5">
+                Toldos Verticales </li></Link>
+             
+                <Link href={'/paneles-orientales'}><li onClick={handleSmallerScreenNavigation} className="py-5">
+                Paneles Ortientales </li></Link>
+             
             </ul>
             <div className="py-5">
               <button className="rounded-full font-assistant px-6 py-2 bg-secondary text-primary text-lg font-semibold">Contactar</button>

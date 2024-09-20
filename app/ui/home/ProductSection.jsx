@@ -12,38 +12,45 @@ const products = [
     title: 'Tradicional con riel',
     description:
       'Nuestros diseños ofrecen un deslizamiento suave y silencioso, combinando funcionalidad y estilo para cualquier espacio. Personaliza con tejidos y acabados únicos.',
-    imageUrl: tradicionalRiel // Ruta de la imagen optimizada
+    imageUrl: tradicionalRiel, // Ruta de la imagen optimizada
+    url: '/tradicional-con-riel'
   },
   {
     title: 'Tradicional con barral',
     description:
       'Diseñadas para combinar estilo y durabilidad, ofrecen una solución estética y práctica. Elige entre una variedad de acabados y texturas para realzar tu decoración.',
     imageUrl: tradicionalBarral,
+     url: '/tradicional-con-barral'
   },
   {
     title: 'Roller',
     description:
       'Diseñadas para combinar estilo y durabilidad, ofrecen una solución estética y práctica. Elige entre una variedad de acabados y texturas para realzar tu decoración.',
     imageUrl: roller,
+    url: '/roller'
   },
   {
     title: 'Bandas Verticales',
     description:
       'Diseñadas para combinar estilo y durabilidad, ofrecen una solución estética y práctica. Elige entre una variedad de acabados y texturas para realzar tu decoración.',
     imageUrl: bandas,
+    url: '/bandas-verticales'
   },
   {
-    title: 'Panel Oriental',
-    description:
-      'Diseñadas para combinar estilo y durabilidad, ofrecen una solución estética y práctica. Elige entre una variedad de acabados y texturas para realzar tu decoración.',
-    imageUrl: panel,
-  },
-  {
-    title: 'Toldo Vertical',
+    title: 'Toldos Verticales',
     description:
       'Diseñadas para combinar estilo y durabilidad, ofrecen una solución estética y práctica. Elige entre una variedad de acabados y texturas para realzar tu decoración.',
     imageUrl: toldos,
+    url: '/toldos-verticales'
   },
+  {
+    title: 'Paneles Orientales',
+    description:
+      'Diseñadas para combinar estilo y durabilidad, ofrecen una solución estética y práctica. Elige entre una variedad de acabados y texturas para realzar tu decoración.',
+    imageUrl: panel,
+    url: '/paneles-orientales'
+  },
+  
   // Añade más productos según sea necesario
 ];
 
@@ -61,6 +68,7 @@ const ProductSection = () => {
             title={product.title}
             description={product.description}
             imageUrl={product.imageUrl}
+            url={product.url}
           />
         ))}
       </div>

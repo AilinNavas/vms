@@ -1,8 +1,9 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
-const ProductCard = ({ title, description, imageUrl }) => {
+const ProductCard = ({ title, description, imageUrl ,url }) => {
   return (
-    <div className="group bg-transparent text-secondary border-2 border-secondary rounded-t-lg cursor-pointer overflow-hidden shadow-lg hover:bg-secondary hover:text-primary ease-in-out duration-300 ">
+    <Link href={url}><div className="group bg-transparent text-secondary border-2 border-secondary rounded-t-lg cursor-pointer overflow-hidden shadow-lg hover:bg-secondary hover:text-primary ease-in-out duration-300 ">
       <div className="relative w-full h-96">
         <Image
           src={imageUrl}
@@ -22,6 +23,7 @@ const ProductCard = ({ title, description, imageUrl }) => {
         </button>
       </div>
     </div>
+    </Link>
   );
 };
 

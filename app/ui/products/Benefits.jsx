@@ -70,7 +70,7 @@ const Benefits = ({ benefits }) => {
 
         {benefits.map(({ id, title, description, image }) => (
           <div key={id} className={`flex flex-col lg:flex-row ${id % 2 !== 0 ? 'lg:flex-row-reverse' : ''} lg:justify-around`}>
-            <Image src={image} alt={title} className=' lg:max-w-md' />
+            <Image src={image} alt={title} className=' lg:max-w-md rounded-md border border-secondary shadow shadow-secondary' />
             <div className='mt-4 lg:mt-0 lg:w-1/2 space-y-4'>
               <span className='font-arapey text-2xl md:text-3xl'>{title}</span>
               {description.map((text, index) => (
