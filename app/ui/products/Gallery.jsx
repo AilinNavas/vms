@@ -3,8 +3,8 @@ import MasonryGrid from './MasonryGrid'
 
 const Gallery = ({ title, description, images }) => {
   return (
-    <section className='bg-gray'>
-      <div className=' mx-auto max-w-7xl py-10 px-4 '>
+    <section className='bg-secondary'>
+      <div className=' mx-auto max-w-7xl py-16 px-4 '>
         <div className='w-full justify-between '>
           <div className='flex flex-col md:flex-row gap-5'>
             <h3 className='text-primary font-arapey md:w-1/2 tracking-tight text-3xl md:text-4xl'>{title}</h3>

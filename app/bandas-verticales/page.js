@@ -13,7 +13,7 @@ import benefitsData from "../ui/data/benefitsData";
 import InfoBottom from "../ui/home/general/InfoBottom";
 
 export default function BandaVertical() {
-  const { title, description, images } = galleryData.tradicional;
+  const { title, description, images } = galleryData.bandasVerticales;
   return (
     <main className="">
       <InfoTop />

@@ -18,8 +18,8 @@ const SliderTrust = () => {
   const duplicatedSlides = [...slides, ...slides];
 
   return (
-    <section className='bg-secondary py-20 '>
-      <div className='max-w-7xl mx-auto border-2 border-yellow-400'>
+    <section className='bg-secondary py-16 '>
+      <div className='max-w-7xl mx-auto'>
       <p className='text-primary font-arapey px-4 text-xl md:text-2xl pb-4'>Empresas que han confiado en nosostros:</p>
        
         <div className="relative w-full overflow-hidden bg-secondary mx-auto" style={{ width: "100%" }}>
@@ -41,7 +41,7 @@ const SliderTrust = () => {
             {duplicatedSlides.map((slide, index) => (
               <div key={index} className="flex-shrink-0" style={{ width: `${100 / slides.length}%` }}>
                 <div className="flex items-center justify-center h-20">
-                 <Image src={slide.src} alt={slide.alt} className='' />
+                 <Image src={slide.src} alt={slide.alt} />
                 </div>
               </div>
             ))}

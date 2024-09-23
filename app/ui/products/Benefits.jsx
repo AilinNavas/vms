@@ -66,11 +66,11 @@ import Image from 'next/image'
 const Benefits = ({ benefits }) => {
   return (
     <div className='py-16 md:py-10 bg-primary font-assistant text-secondary text-lg lg:text-xl'>
-      <div className="px-4 max-w-7xl mx-auto space-y-8">
+      <div className="px-4 max-w-7xl mx-auto space-y-8 lg:space-y-16">
 
         {benefits.map(({ id, title, description, image }) => (
-          <div key={id} className={`flex flex-col lg:flex-row ${id % 2 !== 0 ? 'lg:flex-row-reverse' : ''} lg:justify-around`}>
-            <Image src={image} alt={title} className=' lg:max-w-md rounded-md border border-secondary shadow shadow-secondary' />
+          <div key={id} className={`flex flex-col items-center lg:flex-row ${id % 2 !== 0 ? 'lg:flex-row-reverse' : ''} lg:justify-around`}>
+            <Image src={image} alt={title} className=' lg:max-w-md rounded-md shadow shadow-secondary' />
             <div className='mt-4 lg:mt-0 lg:w-1/2 space-y-4'>
               <span className='font-arapey text-2xl md:text-3xl'>{title}</span>
               {description.map((text, index) => (
