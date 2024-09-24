@@ -6,7 +6,7 @@ import three from '@/public/icons/3.png'
 
 const Values = () => {
   return (
-    <div className=' py-16  bg-primary font-assistant text-primary text-lg lg:text-xl'>
+    <div className='py-16  bg-primary font-assistant text-primary text-lg lg:text-xl'>
       <div className="px-4 max-w-7xl mx-auto">
         <div className='flex flex-col items-center md:flex-row md:justify-between border-2'>
           <div className='flex items-center border-2 w-52 md:w-60 bg-primary'>

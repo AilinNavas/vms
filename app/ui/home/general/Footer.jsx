@@ -7,11 +7,11 @@ import ws from '@/public/icons/whatsapp.svg'
 
 const Footer = () => {
     return (
-        <footer className="bg-primary text-secondary py-8 border-2">
-            <div className="max-w-7xl mx-auto px-4 border-2 border-red-700">
+        <footer className="bg-primary text-secondary py-8 ">
+            <div className="max-w-7xl mx-auto px-4 ">
                 <div className="flex flex-col md:flex-row justify-between space-y-8 md:space-y-0">
                     {/* Sección de Productos */}
-                    <div className="flex-1 border-2 border-blue-700">
+                    <div className="flex-1 ">
                         <h3 className="font-arapey mb-2 text-xl lg:text-2xl">Nuestros productos</h3>
                         <hr className='border-t-2 border-secondary w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
 
                     {/* Sección Sobre Nosotros */}
-                    <div className="flex-1 border-2 border-pink-500">
+                    <div className="flex-1 ">
                         <h3 className="font-arapey mb-2 text-xl lg:text-2xl">Sobre nosotros</h3>
                         <hr className='border-t-2 border-secondary w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
 
                     {/* Sección de Contacto */}
-                    <div className="flex-1 border-2 border-yellow-500">
+                    <div className="flex-1 ">
                         <h3 className="mb-2 font-arapey text-xl lg:text-2xl">Contactar</h3>
                         <hr className='border-t-2 border-secondary w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
 
                 {/* Sección del Logo */}
-                <div className="mt-8 md:mt-0 flex items-center justify-center border-2 border-green-500">
+                <div className="mt-8 md:mt-0 flex items-center justify-center">
                     <Image src={logo} className="w-60 " />
                 </div>
             </div>

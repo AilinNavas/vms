@@ -35,7 +35,7 @@ const AccordionItem = ({ question, answer }) => {
   animate={{ height: isOpen ? 'auto' : 0 }}
   className="overflow-hidden"
 >
-  <div className="p-4 lg:text-lg text-secondary bg-primary font-assistant">
+  <div className="p-4 text-lg md:text-xl text-gray bg-primary font-assistant">
     <p> {answer}</p>
   </div>
 </motion.div>

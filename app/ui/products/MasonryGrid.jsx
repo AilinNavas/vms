@@ -38,7 +38,7 @@ const MasonryGrid = ({ images = [] }) => {
     <div className='columns-1 md:columns-3 py-10 gap-4'>
       {images.map((image, index) => {
         return (
-          <div key={index} className='mb-4 break-inside-avoid'>
+          <div key={index} className='break-inside-avoid'>
             <Image 
               src={image.src} 
               alt={image.alt} 

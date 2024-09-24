@@ -6,7 +6,7 @@ import email from '@/public/icons/email.svg'
 const InfoTop = () => {
     return (
         <div className='h-10 bg-secondary hidden md:block pt-1.5 font-assistant'>
-            <div className="px-4 max-w-7xl mx-auto space-y-4 border-2 border-red-600">
+            <div className="px-4 max-w-7xl mx-auto space-y-4">
                 <div className='text-primary flex items-center md:justify-end lg:justify-between'>
                     <p className='items-center hidden lg:flex justify-end'>
                         <span className='mr-8 flex'>  <Image src={phone} alt='icono-telefono' />+549 351-158507065</span>

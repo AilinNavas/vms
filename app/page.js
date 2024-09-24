@@ -5,7 +5,7 @@ import InfoBottom from "./ui/home/general/InfoBottom";
 import InfoTop from "./ui/home/general/InfoTop";
 import Navbar from "./ui/home/general/Navbar";
 import Whatsapp from "./ui/home/general/Whatsapp";
-import GetAQuote from "./ui/home/GetAQuote";
+// import GetAQuote from "./ui/home/GetAQuote";
 import Hero from "./ui/home/Hero";
 import OurProcess from "./ui/home/OurProcess";
 import ProductSection from "./ui/home/ProductSection";
@@ -27,7 +27,7 @@ export default function Home() {
       <Faqs  title="Preguntas Frecuentes"
       description=""
       items={FaqsHome}/>
-      <GetAQuote />
+      {/* <GetAQuote /> */}
       <Footer />
       <InfoBottom />
      

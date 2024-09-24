@@ -50,57 +50,57 @@ const galleryData = {
             { src: squareTB3, alt: 'img-square-3' },
         ],
     },
-     tradicionalConRiel: {
-         title: 'Is simply dummy text of the printing and typesetting industry',
-        description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-        images: [
-             { src: squareTR1, alt: 'img-square-1' },
-             { src: wideTR1, alt: 'img-wide-1' },
-             { src: wideTR2, alt: 'img-wide-2' },
-            { src: squareTR2, alt: 'img-square-2' },
-             { src: wideTR3, alt: 'img-wide-3' },
-            { src: squareTR3, alt: 'img-square-3' },
-        ],
-     },
-    roller: {
-         title: 'Is simply dummy text of the printing and typesetting industry',
-        description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-        images: [
-             { src: squareR1, alt: 'img-square-1' },
-             { src: wideR1, alt: 'img-wide-1' },
-             { src: wideR2, alt: 'img-wide-2' },
-            { src: squareR2, alt: 'img-square-2' },
-             { src: wideR3, alt: 'img-wide-3' },
-             { src: squareR3, alt: 'img-square-3' },
-         ],
-     },
-     bandasVerticales: {
+    tradicionalConRiel: {
         title: 'Is simply dummy text of the printing and typesetting industry',
         description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
         images: [
-           { src: squareB1, alt: 'img-square-1' },
+            { src: squareTR1, alt: 'img-square-1' },
+            { src: wideTR1, alt: 'img-wide-1' },
+            { src: wideTR2, alt: 'img-wide-2' },
+            { src: squareTR2, alt: 'img-square-2' },
+            { src: wideTR3, alt: 'img-wide-3' },
+            { src: squareTR3, alt: 'img-square-3' },
+        ],
+    },
+    roller: {
+        title: 'Is simply dummy text of the printing and typesetting industry',
+        description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        images: [
+            { src: squareR1, alt: 'img-square-1' },
+            { src: wideR1, alt: 'img-wide-1' },
+            { src: wideR2, alt: 'img-wide-2' },
+            { src: squareR2, alt: 'img-square-2' },
+            { src: wideR3, alt: 'img-wide-3' },
+            { src: squareR3, alt: 'img-square-3' },
+        ],
+    },
+    bandasVerticales: {
+        title: 'Is simply dummy text of the printing and typesetting industry',
+        description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        images: [
+            { src: squareB1, alt: 'img-square-1' },
             { src: wideB1, alt: 'img-wide-1' },
-           { src: wideB2, alt: 'img-wide-2' },
+            { src: wideB2, alt: 'img-wide-2' },
             { src: squareB2, alt: 'img-square-2' },
             { src: wideB3, alt: 'img-wide-3' },
-             { src: squareB3, alt: 'img-square-3' },
+            { src: squareB3, alt: 'img-square-3' },
         ],
     },
     toldosVerticales: {
-       title: 'Is simply dummy text of the printing and typesetting industry',
-         description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-         images: [
+        title: 'Is simply dummy text of the printing and typesetting industry',
+        description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        images: [
             { src: squareT1, alt: 'img-square-1' },
-             { src: wideT1, alt: 'img-wide-1' },
-             { src: wideT2, alt: 'img-wide-2' },
-             { src: squareT2, alt: 'img-square-2' },
-             { src: wideT3, alt: 'img-wide-3' },
-             { src: squareT3, alt: 'img-square-3' },
+            { src: wideT1, alt: 'img-wide-1' },
+            { src: wideT2, alt: 'img-wide-2' },
+            { src: squareT2, alt: 'img-square-2' },
+            { src: wideT3, alt: 'img-wide-3' },
+            { src: squareT3, alt: 'img-square-3' },
         ],
-     },
-    
+    },
 
-  
+
+
 };
 
 export default galleryData;

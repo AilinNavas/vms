@@ -27,7 +27,7 @@ const features = [
 const WhyChooseUs = () => {
   return (
     <section className='bg-primary text-secondary'>
-      <div className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center border-2 border-yellow-400'>
+      <div className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center'>
         <h2 className="text-secondary font-arapey text-3xl md:text-5xl mb-6">¿Por qué elegirnos?</h2>
         <p className="mb-10 font-assistant">
           En VMS, nos especializamos en ofrecer soluciones únicas y

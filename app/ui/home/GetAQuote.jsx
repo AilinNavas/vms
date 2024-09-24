@@ -7,7 +7,7 @@ import React from 'react'
 const GetAQuote = () => {
     return (
         <div className='relative py-40 md:py-60'>
-            <div className="px-4 max-w-7xl mx-auto space-y-4 border-2 border-red-600">
+            <div className="px-4 max-w-7xl mx-auto space-y-4">
                 <h4 className="text-5xl md:text-7xl max-w-xl font-arapey text-primary px-4 backdrop-blur-xs bg-white/10">A un sólo paso de sentirte mejor</h4>
 
             </div>
