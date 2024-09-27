@@ -13,6 +13,7 @@ import HeroProducts from "../ui/products/HeroProducts";
 import heroProducts from "../ui/data/heroProducts";
 import check from '@/public/check.svg'
 import NavbarMobile from "../ui/home/general/NavbarMobile";
+import Whatsapp from "../ui/home/general/Whatsapp";
 
 export default function BandaVertical() {
 
@@ -32,6 +33,7 @@ export default function BandaVertical() {
       <InfoTop faqsHref={'#faqs-bandas'}/>
       <Navbar />
       <NavbarMobile />
+      <Whatsapp />
       <HeroProducts productData={heroProducts.bandasVerticales} />
       <Values values={oneValues}/>
       <Benefits benefits={benefitsData.bandasVerticales} />

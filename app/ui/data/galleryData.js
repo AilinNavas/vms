@@ -39,8 +39,8 @@ import wideT3 from '@/public/tradicional/grid/wideT3.png'
 const galleryData = {
 
     tradicionalConBarral: {
-        title: 'Is simply dummy text of the printing and typesetting industry',
-        description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        title: 'Elegancia atemporal en cada pliegue',
+        description: "Las cortinas tradicionales con barral transforman cualquier espacio con una sensación de calidez y sofisticación. Cada pliegue, cuidadosamente diseñado, añade un toque clásico que convierte tu hogar en un refugio acogedor, mientras resalta la belleza natural de tus ventanas.",
         images: [
             { src: squareTB1, alt: 'img-tradicional-barral-cuadrada-1' },
             { src: wideTB1, alt: 'img-tradicional-barral-rectangular-1' },
@@ -51,8 +51,8 @@ const galleryData = {
         ],
     },
     tradicionalConRiel: {
-        title: 'Is simply dummy text of the printing and typesetting industry',
-        description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        title: 'Discreción y perfección en el movimiento',
+        description: "Las cortinas con riel europeo deslizan suavemente, creando una estética limpia y moderna. Este sistema permite un movimiento fluido y silencioso, ideal para quienes buscan elegancia con una funcionalidad impecable en cada detalle.",
         images: [
             { src: squareTR1, alt: 'img-tradicional-riel-cuadrada-1' },
             { src: wideTR1, alt: 'img-tradicional-riel-rectangular-1' },
@@ -63,8 +63,8 @@ const galleryData = {
         ],
     },
     roller: {
-        title: 'Is simply dummy text of the printing and typesetting industry',
-        description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        title: 'Control y minimalismo en tus manos',
+        description: "Las cortinas roller ofrecen la combinación perfecta entre diseño minimalista y control total de luz. Con su estilo sencillo y moderno, brindan privacidad sin complicaciones, mientras crean ambientes luminosos y ordenados que se adaptan a cualquier estilo de vida.",
         images: [
             { src: squareR1, alt: 'img-roller-cuadrada-1' },
             { src: wideR1, alt: 'img-roller-rectangular-1' },
@@ -75,8 +75,8 @@ const galleryData = {
         ],
     },
     bandasVerticales: {
-        title: 'Is simply dummy text of the printing and typesetting industry',
-        description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        title: 'Versatilidad con un toque moderno',
+        description: "Las cortinas de bandas verticales aportan una estética contemporánea y funcionalidad total. Perfectas para grandes ventanales, su diseño estilizado permite controlar la luz con precisión, añadiendo un dinamismo único que llena de vida cualquier espacio.",
         images: [
             { src: squareB1, alt: 'img-banda-vertical-cuadrada-1' },
             { src: wideB1, alt: 'img-banda-vertical-rectangular-1' },
@@ -87,8 +87,8 @@ const galleryData = {
         ],
     },
     toldosVerticales: {
-        title: 'Is simply dummy text of the printing and typesetting industry',
-        description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        title: 'Protección exterior con estilo',
+        description: "Los toldos verticales transforman tus exteriores en un espacio de confort y diseño. No solo protegen contra el sol y el viento, sino que también crean un ambiente acogedor y elegante, ideal para disfrutar del aire libre sin renunciar al estilo.",
         images: [
             { src: squareT1, alt: 'img-toldo-vertical-cuadrada-1' },
             { src: wideT1, alt: 'img-toldo-vertical-rectangular-1' },
@@ -98,6 +98,19 @@ const galleryData = {
             { src: squareT3, alt: 'img-toldo-vertical-cuadrada-3' },
         ],
     },
+    sobreNosotros: {
+        title: 'Transformamos espacios con estilo y funcionalidad',
+        description: "En VMS Cortinados, no solo vendemos cortinas, sino que brindamos una experiencia de transformación que eleva la estética y funcionalidad de cualquier entorno.",
+        images: [
+            { src: squareT1, alt: 'img-toldo-vertical-cuadrada-1' },
+            { src: wideB3, alt: 'img-toldo-vertical-rectangular-1' },
+            { src: wideR2, alt: 'img-toldo-vertical-rectangular-2' },
+            { src: squareTR1, alt: 'img-toldo-vertical-cuadrada-2' },
+            { src: wideTR3, alt: 'img-toldo-vertical-rectangular-3' },
+            { src: squareTB3, alt: 'img-toldo-vertical-cuadrada-3' },
+        ],
+    },
+
 
 
 

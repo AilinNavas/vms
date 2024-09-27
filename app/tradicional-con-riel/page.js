@@ -15,6 +15,7 @@ import heroProducts from "../ui/data/heroProducts";
 import Footer from "../ui/home/general/Footer";
 import check from '@/public/check.svg'
 import NavbarMobile from "../ui/home/general/NavbarMobile";
+import Whatsapp from "../ui/home/general/Whatsapp";
 
 export default function Tradicional() {
   const { title, description, images } = galleryData.tradicionalConRiel;
@@ -37,6 +38,7 @@ export default function Tradicional() {
       <InfoTop faqsHref={'#faqs-con-riel'}/>
       <Navbar />
       <NavbarMobile />
+      <Whatsapp />
       <HeroProducts productData={heroProducts.tradicionalConRiel} />
       <Values values={oneValues}/>
       <Benefits benefits={benefitsData.tradicionalConRiel} />

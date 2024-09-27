@@ -71,7 +71,7 @@ const AnimatedHamburgerButton = () => {
 
                         <div className='flex'>
 
-                            <Link href="/" className="text-secondary" onClick={handleLinkClick}>Sobre nosotros</Link>
+                            <Link href="/sobre-nosotros" className="text-secondary" onClick={handleLinkClick}>Sobre nosotros</Link>
                         </div>
 
                         <div className='flex'>
@@ -95,7 +95,7 @@ const AnimatedHamburgerButton = () => {
 
                         <div className='flex'>
 
-                            <Link href="/toldos-verticales" className="text-secondary " onClick={handleLinkClick}>Todos Verticales</Link>
+                            <Link href="/toldos-verticales" className="text-secondary " onClick={handleLinkClick}>Toldos Verticales</Link>
                         </div>
 
                     </nav>

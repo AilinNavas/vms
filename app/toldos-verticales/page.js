@@ -13,6 +13,7 @@ import faqsProducts from "../ui/data/faqsProducts";
 import heroProducts from "../ui/data/heroProducts";
 import check from '@/public/check.svg'
 import NavbarMobile from "../ui/home/general/NavbarMobile";
+import Whatsapp from "../ui/home/general/Whatsapp";
 
 
 export default function ToldoVertical() {
@@ -34,6 +35,7 @@ export default function ToldoVertical() {
       <InfoTop faqsHref={'#faqs-toldos'}/>
       <Navbar />
       <NavbarMobile />
+      <Whatsapp />
       <HeroProducts productData={heroProducts.toldosVerticales} />
       <Values values={oneValues}/>
       <Benefits benefits={benefitsData.toldosVerticales} />

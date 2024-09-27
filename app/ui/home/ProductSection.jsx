@@ -48,7 +48,7 @@ const products = [
 const ProductSection = () => {
   return (
     <section className='bg-primary'>
-       <div className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center'>
+       <div id="nuestros-cortinados" className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center'>
          <header className='pb-8'>
            <h2 className='text-secondary font-arapey text-3xl md:text-5xl'>Nuestros Cortinados</h2>
          </header>

@@ -13,6 +13,7 @@ import HeroProducts from "../ui/products/HeroProducts";
 import heroProducts from "../ui/data/heroProducts";
 import check from '@/public/check.svg'
 import NavbarMobile from "../ui/home/general/NavbarMobile";
+import Whatsapp from "../ui/home/general/Whatsapp";
 
 
 export default function Roller() {
@@ -33,6 +34,7 @@ export default function Roller() {
       <InfoTop faqsHref={'#faqs-roller'}/>
       <Navbar />
       <NavbarMobile />
+      <Whatsapp />
       <HeroProducts productData={heroProducts.roller} />
       <Values values={oneValues}/>
       <Benefits benefits={benefitsData.roller} />
