@@ -46,8 +46,9 @@ const HeroProducts = ({ productData }) => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ duration: 0.5, ease: "easeInOut" }}
+
                         >
-                            <Image src={fabrics[activeIndex].image} alt={fabrics[activeIndex].title} className='rounded-lg lg:max-w-lg' />
+                            <Image src={fabrics[activeIndex].image} alt={fabrics[activeIndex].title} priority className='rounded-lg lg:max-w-lg' />
                         </motion.div>
                     </AnimatePresence>
                 </div>

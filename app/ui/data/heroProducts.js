@@ -24,9 +24,6 @@ import toldoLonaVinilica from '@/public/toldo/hero/lona.png'
 import toldoSunscreen from '@/public/toldo/hero/sunscreen.png'
 import toldoPVCcristal from '@/public/toldo/hero/cristal.png'
 
-
-
-
 const heroProducts = {
   tradicionalConBarral: {
     cortinaName: 'Tradicional con Barral',
