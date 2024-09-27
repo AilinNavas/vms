@@ -1,6 +1,6 @@
 import Image from "next/image";
-import hero from '@/public/hero.png'
-import heroMobile from '@/public/hero-mobile.png'
+import hero2 from '@/public/hero/3.png'
+import hero1 from '@/public/hero/mobile.png'
 import Link from "next/link";
 const Hero = () => {
     return (
@@ -18,8 +18,8 @@ const Hero = () => {
             </div>
 
 
-            <Image src={heroMobile} alt='Image tech' quality={100} priority className='w-full block lg:hidden absolute top-0 -z-10' />
-            <Image src={hero} alt='Image tech' quality={100} priority className='w-full hidden lg:block absolute top-0 -z-10' />
+            <Image src={hero1} alt='Image tech' quality={100} priority className='w-full block lg:hidden absolute top-0 -z-10' />
+            <Image src={hero2} alt='Image tech' quality={100} priority className='w-full hidden lg:block absolute top-0 -z-10' />
 
         </div>
  
