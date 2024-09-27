@@ -17,7 +17,7 @@ import NavbarMobile from "./ui/home/general/NavbarMobile";
 export default function Home() {
   return (
     <main className="">
-      <InfoTop />
+      <InfoTop faqsHref={'#faqs'} />
       <Navbar />
       <NavbarMobile />
       <Whatsapp />
@@ -27,9 +27,9 @@ export default function Home() {
       <WhyChooseUs />
       <ContactUs />
       <SliderTrust />
-      <Faqs  title="Preguntas Frecuentes"
+      <Faqs title="Preguntas Frecuentes"
       description=""
-      items={FaqsHome}/>
+      items={FaqsHome} id='faqs' />
       {/* <GetAQuote /> */}
 
       <Footer />

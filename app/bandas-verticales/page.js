@@ -29,7 +29,7 @@ export default function BandaVertical() {
   const { title, description, images } = galleryData.bandasVerticales;
   return (
     <main className="">
-      <InfoTop />
+      <InfoTop faqsHref={'#faqs-bandas'}/>
       <Navbar />
       <NavbarMobile />
       <HeroProducts productData={heroProducts.bandasVerticales} />
@@ -40,7 +40,8 @@ export default function BandaVertical() {
       <WhatsappForm />
       <Faqs title="Preguntas Frecuentes "
         description=""
-        items={faqsProducts.bandasVerticales} />
+        items={faqsProducts.bandasVerticales}
+        id='faqs-bandas' />
       <InfoBottom />
 
 

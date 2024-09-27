@@ -31,7 +31,7 @@ export default function ToldoVertical() {
   ];
   return (
     <main className="">
-      <InfoTop />
+      <InfoTop faqsHref={'#faqs-toldos'}/>
       <Navbar />
       <NavbarMobile />
       <HeroProducts productData={heroProducts.toldosVerticales} />
@@ -42,7 +42,8 @@ export default function ToldoVertical() {
       <WhatsappForm />
       <Faqs title="Preguntas frecuentes"
         description=""
-        items={faqsProducts.toldosVerticales} />
+        items={faqsProducts.toldosVerticales}
+        id='faqs-toldos' />
       <InfoBottom />
 
 

@@ -29,7 +29,7 @@ export default function Tradicional() {
   
   return (
     <main className="">
-      <InfoTop />
+      <InfoTop faqsHref={'#faqs-con-barral'}/>
       <Navbar />
       <NavbarMobile/>
       <HeroProducts productData={heroProducts.tradicionalConBarral}/>
@@ -40,7 +40,8 @@ export default function Tradicional() {
       <Values values={twoValues}/>
       <Faqs title="Preguntas Frecuentes"
         description=""
-        items={faqsProducts.tradicionalConBarral} />
+        items={faqsProducts.tradicionalConBarral} 
+        id='faqs-con-barral'/>
       <InfoBottom />
 
 

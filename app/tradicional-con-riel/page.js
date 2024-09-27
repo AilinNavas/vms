@@ -34,7 +34,7 @@ export default function Tradicional() {
     
     <main className="">
       
-      <InfoTop />
+      <InfoTop faqsHref={'#faqs-con-riel'}/>
       <Navbar />
       <NavbarMobile />
       <HeroProducts productData={heroProducts.tradicionalConRiel} />
@@ -45,7 +45,8 @@ export default function Tradicional() {
       <Values values={twoValues} />
       <Faqs title="Preguntas Frecuentes"
         description=""
-        items={faqsProducts.tradicionalConRiel} />
+        items={faqsProducts.tradicionalConRiel}
+         id='faqs-con-riel' />
       <Footer />
       <InfoBottom />
 

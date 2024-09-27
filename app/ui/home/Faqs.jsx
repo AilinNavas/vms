@@ -1,8 +1,8 @@
 import Accordion from "./general/Accordion";
 
-const Faqs = ({ title, description, items }) => {
+const Faqs = ({ title, description, items, id }) => {
   return (
-    <section id='faqs' className="bg-primary py-16 ">
+    <section id={id} className="bg-primary py-16 ">
       <div className='max-w-7xl px-4 mx-auto lg:px-0 pb-16'>
         <h2 className="text-secondary mb-4 font-arapey text-3xl md:text-5xl">{title}</h2>
         <p className="font-assistant text-gray pb-4">{description}</p>

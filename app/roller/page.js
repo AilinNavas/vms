@@ -30,7 +30,7 @@ export default function Roller() {
   const { title, description, images } = galleryData.roller;
   return (
     <main className="">
-      <InfoTop />
+      <InfoTop faqsHref={'#faqs-roller'}/>
       <Navbar />
       <NavbarMobile />
       <HeroProducts productData={heroProducts.roller} />
@@ -41,7 +41,8 @@ export default function Roller() {
       <WhatsappForm />
       <Faqs title="Preguntas frecuentes"
         description=""
-        items={faqsProducts.roller} />
+        items={faqsProducts.roller} 
+        id='faqs-roller'/>
       <InfoBottom />
 
 

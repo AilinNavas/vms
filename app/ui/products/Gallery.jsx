@@ -16,7 +16,7 @@ const Gallery = ({ title, description, images }) => {
         </div>
         <div className='text-center'>
         <button className="rounded-full px-6 py-2 bg-primary border-2 border-primary text-secondary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-primary ease-in duration-300">Obtener una asesoria personalizada</button>
-        </div>-
+        </div>
       </div> 
     
     </section>
