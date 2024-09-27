@@ -30,9 +30,9 @@ const Footer = () => {
                         <hr className='border-t-2 border-secondary w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
                             <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">Empresa</li>
-                            <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">Servicios</li>
-                            <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">Preguntas frecuentes</li>
-                            <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">¿Necesitas ayuda?</li>
+                            <Link href={'#servicios'}><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">Servicios</li></Link>
+                            <Link href="#faqs"><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">Preguntas frecuentes</li></Link>
+                            <Link href={'https://walink.co/82c00b'}><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">¿Necesitas ayuda?</li></Link>
                         </ul>
                     </div>
 
@@ -49,11 +49,11 @@ const Footer = () => {
                                 <Image src={email} alt='icono-email' className="w-5 h-5 mr-2" />
                                 ventas@vmscortinados.com
                             </li>
-                            <li className="flex items-center">
-                                <Image src={ws} alt='icono-whatsapp' className="w-5 h-5 mr-2" />
+                            <Link href={'https://walink.co/82c00b'}><li className="flex items-center mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">
+                         <Image src={ws} alt='icono-whatsapp' className="w-5 h-5 mr-2" />
                                 +549 351-158507607
-                            </li>
-                            <a href="https://www.instagram.com/vmscortinadosyservicios/?hl=es" target='_blank'><li className="flex items-center mt-2">
+                            </li></Link>
+                            <a href="https://www.instagram.com/vmscortinadosyservicios/?hl=es" target='_blank'><li className="flex items-center mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">
                                 <Image src={ig} alt='icono-instagram' className="w-5 h-5 mr-2" />
                                 vmscortinados
                             </li></a>

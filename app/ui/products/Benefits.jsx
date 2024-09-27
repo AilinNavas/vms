@@ -21,7 +21,7 @@ const Benefits = ({ benefits }) => {
                 <p key={index} className='font-assistant text-gray text-lg md:text-xl'>{text}</p>
               ))}
               <div className='text-center'>
-                <button className="rounded-full px-6 py-2 bg-secondary text-primary font-assistant text-lg font-semibold z-0 mt-6 lg:mt-10">Obtener una asesoría personalizada</button>
+                <button className="rounded-full px-6 py-2 bg-secondary border-secondary border-2 text-primary font-assistant text-lg font-semibold z-0 mt-6 lg:mt-10 hover:bg-transparent hover:text-secondary ease-in duration-300">Obtener una asesoría personalizada</button>
               </div>
             </div>
           </div>

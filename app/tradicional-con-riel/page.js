@@ -1,9 +1,8 @@
 import Faqs from "../ui/home/Faqs";
-import Banner from "../ui/products/Banner";
+import Navbar from "../ui/home/general/Navbar";
 import Benefits from "../ui/products/Benefits";
 import Gallery from "../ui/products/Gallery";
-import InfoTop from "../ui/products/InfoTop";
-// import SliderTrust from "../ui/products/SliderTrust";
+import InfoTop from "../ui/home/general/InfoTop";
 import Values from "../ui/products/Values";
 import WhatsappForm from "../ui/products/WhatsappForm";
 import galleryData from "../ui/data/galleryData";
@@ -13,27 +12,36 @@ import faqsProducts from "../ui/data/faqsProducts";
 import HeroProducts from "../ui/products/HeroProducts";
 import heroProducts from "../ui/data/heroProducts";
 import Footer from "../ui/home/general/Footer";
+import check from '@/public/check.svg'
 
 export default function Tradicional() {
   const { title, description, images } = galleryData.tradicionalConRiel;
+
+  const oneValues = [
+    { icon: check, text: 'Soluciones a medida' },
+    { icon: check, text: 'Materiales premium' },
+    { icon: check, text: 'Instalación sin inconvenientes' }
+  ];
+  const twoValues = [
+    { icon: check, text: 'Asesoramiento a domicilio' },
+    { icon: check, text: 'Satisfacción garantizada' },
+    { icon: check, text: '30 Años De Trayectoria' }
+  ];
+
   return (
     <main className="">
       <InfoTop />
-      <Banner />
-      <HeroProducts productData={heroProducts.tradicionalConRiel}/>
-      {/* <SliderTrust /> */}
-      <Values />
+      <Navbar />
+      <HeroProducts productData={heroProducts.tradicionalConRiel} />
+      <Values values={oneValues}/>
       <Benefits benefits={benefitsData.tradicionalConRiel} />
-      {/* <SliderTrust /> */}
-      
       <Gallery title={title} description={description} images={images} />
-     
       <WhatsappForm />
-      <Values />
+      <Values values={twoValues} />
       <Faqs title="Preguntas Frecuentes"
         description=""
         items={faqsProducts.tradicionalConRiel} />
-        <Footer />
+      <Footer />
       <InfoBottom />
 
 

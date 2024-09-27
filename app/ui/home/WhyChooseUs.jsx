@@ -27,7 +27,7 @@ const features = [
 const WhyChooseUs = () => {
   return (
     <section className='bg-primary text-secondary'>
-      <div className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center'>
+      <div  id='servicios' className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center'>
         <h2 className="text-secondary font-arapey text-3xl md:text-5xl mb-6">¿Por qué elegirnos?</h2>
         <p className="mb-10 font-assistant text-lg lg:text-xl">
           En VMS, nos especializamos en ofrecer soluciones únicas y
@@ -37,7 +37,7 @@ const WhyChooseUs = () => {
           acogedores. Descubre cómo nuestros servicios pueden elevar el confort
           y la estética de tu hogar, oficina o empresa.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 border-2">
+        <div  className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 border-2">
           {features.map((feature, index) => (
             <div
               key={index}

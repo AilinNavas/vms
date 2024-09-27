@@ -43,15 +43,6 @@ const products = [
     imageUrl: toldos,
     url: '/toldos-verticales'
   },
-  {
-    title: 'Paneles Orientales',
-    description:
-      'Diseñadas para combinar estilo y durabilidad, ofrecen una solución estética y práctica. Elige entre una variedad de acabados y texturas para realzar tu decoración.',
-    imageUrl: panel,
-    url: '/paneles-orientales'
-  },
-  
-  // Añade más productos según sea necesario
 ];
 
 const ProductSection = () => {

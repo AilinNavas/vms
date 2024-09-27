@@ -22,15 +22,15 @@ const FaqsHome = [
       },
       {
         question: '¿Es posible automatizar las cortinas? ',
-        answer: 'Sí, ofrecemos opciones de automatización para varias de nuestras cortinas, como cortinas roller y toldos verticales. Esto te permite controlar las cortinas mediante un control remoto, aplicación móvil, o integración con sistemas de hogar inteligente.',
+        answer: 'Sí, ofrecemos opciones de automatización para varias de nuestras cortinas, como cortinas roller y toldos verticales.',
       },
       {
         question: '¿Pueden ayudarme a seleccionar el estilo y el tipo de cortina que mejor se adapte a mi espacio?',
-        answer: 'Claro, nuestro equipo de expertos en diseño te asesorará en la selección del estilo, color, y tipo de cortina que mejor se adapte a la decoración y funcionalidad de tu espacio.',
+        answer: 'Claro, nuestro equipo de expertos en diseño te asesorará en la selección del estilo, color, y tipo de cortina que mejor se adapte a la decoración, las aberturas y funcionalidad de tu espacio.',
       },
       {
         question: '¿Cómo puedo mantener y limpiar mis cortinas para que se vean como nuevas?',
-        answer: 'Te ofrecemos recomendaciones específicas para el cuidado y mantenimiento de cada tipo de cortina. Además, contamos con un servicio de limpieza especializado para cortinas, roller, sillones y alfombras, asegurando que tus elementos luzcan impecables a lo largo del tiempo.',
+        answer: 'Te ofrecemos recomendaciones específicas para el cuidado y mantenimiento de cada tipo de cortina. Además, contamos con un servicio de limpieza especializado para cortinas roller, sillones y alfombras, asegurando que tus elementos luzcan impecables a lo largo del tiempo.',
       },
 
 ];
