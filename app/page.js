@@ -11,6 +11,7 @@ import ProductSection from "./ui/home/ProductSection";
 import WhyChooseUs from "./ui/home/WhyChooseUs";
 import FaqsHome from "./ui/data/faqsHome";
 import SliderTrust from "./ui/products/SliderTrust";
+import NavbarMobile from "./ui/home/general/NavbarMobile";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
     <main className="">
       <InfoTop />
       <Navbar />
+      <NavbarMobile />
       <Whatsapp />
       <Hero />
       <OurProcess />

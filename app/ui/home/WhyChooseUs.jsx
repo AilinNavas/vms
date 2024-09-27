@@ -37,7 +37,7 @@ const WhyChooseUs = () => {
           acogedores. Descubre cómo nuestros servicios pueden elevar el confort
           y la estética de tu hogar, oficina o empresa.
         </p>
-        <div  className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 border-2">
+        <div  className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
           {features.map((feature, index) => (
             <div
               key={index}

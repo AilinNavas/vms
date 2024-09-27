@@ -12,6 +12,7 @@ import HeroProducts from "../ui/products/HeroProducts";
 import faqsProducts from "../ui/data/faqsProducts";
 import heroProducts from "../ui/data/heroProducts";
 import check from '@/public/check.svg'
+import NavbarMobile from "../ui/home/general/NavbarMobile";
 
 
 export default function ToldoVertical() {
@@ -32,6 +33,7 @@ export default function ToldoVertical() {
     <main className="">
       <InfoTop />
       <Navbar />
+      <NavbarMobile />
       <HeroProducts productData={heroProducts.toldosVerticales} />
       <Values values={oneValues}/>
       <Benefits benefits={benefitsData.toldosVerticales} />

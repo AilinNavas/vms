@@ -12,6 +12,7 @@ import faqsProducts from "../ui/data/faqsProducts";
 import HeroProducts from "../ui/products/HeroProducts";
 import heroProducts from "../ui/data/heroProducts";
 import check from '@/public/check.svg'
+import NavbarMobile from "../ui/home/general/NavbarMobile";
 
 export default function Tradicional() {
   const { title, description, images } = galleryData.tradicionalConBarral;
@@ -30,6 +31,7 @@ export default function Tradicional() {
     <main className="">
       <InfoTop />
       <Navbar />
+      <NavbarMobile/>
       <HeroProducts productData={heroProducts.tradicionalConBarral}/>
       <Values values={oneValues}/>
       <Benefits benefits={benefitsData.tradicionalConBarral} />

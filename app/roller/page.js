@@ -12,6 +12,7 @@ import faqsProducts from "../ui/data/faqsProducts";
 import HeroProducts from "../ui/products/HeroProducts";
 import heroProducts from "../ui/data/heroProducts";
 import check from '@/public/check.svg'
+import NavbarMobile from "../ui/home/general/NavbarMobile";
 
 
 export default function Roller() {
@@ -31,6 +32,7 @@ export default function Roller() {
     <main className="">
       <InfoTop />
       <Navbar />
+      <NavbarMobile />
       <HeroProducts productData={heroProducts.roller} />
       <Values values={oneValues}/>
       <Benefits benefits={benefitsData.roller} />

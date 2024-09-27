@@ -1,3 +1,4 @@
+
 import Faqs from "../ui/home/Faqs";
 import Navbar from "../ui/home/general/Navbar";
 import Benefits from "../ui/products/Benefits";
@@ -13,6 +14,7 @@ import HeroProducts from "../ui/products/HeroProducts";
 import heroProducts from "../ui/data/heroProducts";
 import Footer from "../ui/home/general/Footer";
 import check from '@/public/check.svg'
+import NavbarMobile from "../ui/home/general/NavbarMobile";
 
 export default function Tradicional() {
   const { title, description, images } = galleryData.tradicionalConRiel;
@@ -29,9 +31,12 @@ export default function Tradicional() {
   ];
 
   return (
+    
     <main className="">
+      
       <InfoTop />
       <Navbar />
+      <NavbarMobile />
       <HeroProducts productData={heroProducts.tradicionalConRiel} />
       <Values values={oneValues}/>
       <Benefits benefits={benefitsData.tradicionalConRiel} />
