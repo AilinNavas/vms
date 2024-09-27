@@ -12,9 +12,9 @@ const Benefits = ({ benefits }) => {
       <div className="px-4 max-w-7xl mx-auto space-y-8 lg:space-y-16">
   
 
-        {benefits.map(({ id, title, description, image }) => (
+        {benefits.map(({ id, title, description, image ,alt }) => (
           <div key={id} className={` flex flex-col items-center lg:flex-row ${id % 2 !== 0 ? 'lg:flex-row-reverse' : ''} lg:justify-between`}>
-            <Image src={image} alt={title} className=' lg:max-w-md rounded-md shadow shadow-secondary' />
+            <Image src={image} alt={alt} className=' lg:max-w-md rounded-md ' />
             <div className={` mt-4 lg:mt-0 lg:w-2/3 space-y-4 ${id % 2 === 0 ? 'lg:pl-8' : ''} lg:pr-8`}>
               <span className='font-arapey text-2xl md:text-3xl'>{title}</span>
               {description.map((text, index) => (

@@ -11,7 +11,7 @@ const products = [
   {
     title: 'Tradicional con riel',
     description:
-      'Nuestros diseños ofrecen un deslizamiento suave y silencioso, combinando funcionalidad y estilo para cualquier espacio. Personaliza con tejidos y acabados únicos.',
+      'Nuestros diseños ofrecen un deslizamiento suave y silencioso, combinando funcionalidad y estilo para cualquier espacio.',
     imageUrl: tradicionalRiel, // Ruta de la imagen optimizada
     url: '/tradicional-con-riel'
   },

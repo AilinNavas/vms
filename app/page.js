@@ -6,11 +6,13 @@ import InfoTop from "./ui/home/general/InfoTop";
 import Navbar from "./ui/home/general/Navbar";
 import Whatsapp from "./ui/home/general/Whatsapp";
 // import GetAQuote from "./ui/home/GetAQuote";
+// import SliderTrust from "./ui/products/SliderTrust";
 import Hero from "./ui/home/Hero";
 import OurProcess from "./ui/home/OurProcess";
 import ProductSection from "./ui/home/ProductSection";
 import WhyChooseUs from "./ui/home/WhyChooseUs";
 import FaqsHome from "./ui/data/faqsHome";
+import SliderTrust from "./ui/products/SliderTrust";
 
 
 export default function Home() {
@@ -24,10 +26,12 @@ export default function Home() {
       <ProductSection />
       <WhyChooseUs />
       <ContactUs />
+      <SliderTrust />
       <Faqs  title="Preguntas Frecuentes"
       description=""
       items={FaqsHome}/>
       {/* <GetAQuote /> */}
+
       <Footer />
       <InfoBottom />
      

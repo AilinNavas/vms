@@ -1,154 +1,160 @@
-import gasa1 from '@/public/tradicional/grid/squareT1.png';
-import gasa2 from '@/public/tradicional/grid/squareT2.png';
-import gasa3 from '@/public/tradicional/grid/squareT3.png';
-import voile1 from '@/public/tradicional/grid/squarer1.png';
-import voile2 from '@/public/tradicional/grid/squarer2.png';
-import voile3 from '@/public/tradicional/grid/squarer3.png';
+
+import rollerBlackout from '@/public/roller/hero/rollerblackout.png'
+import rollerSuns5 from '@/public/roller/hero/rollersunscreen5.png'
+import rollerSuns4 from '@/public/roller/hero/rollersunscreen4.png'
+import rollerSuns1 from '@/public/roller/hero/rollersunscreen1.png'
+
+import rielAlgodon from '@/public/tradicional/hero/conRiel/gasaAlgodon.png'
+import rielIndu from '@/public/tradicional/hero/conRiel/gasaIndu.png'
+import rielVoile from '@/public/tradicional/hero/conRiel/voileDeHilo.png'
+import rielGros from '@/public/tradicional/hero/conRiel/combinadaGros.png'
+import rielBlackout from '@/public/tradicional/hero/conRiel/blackout.png'
+
+import barralIndu from '@/public/tradicional/hero/conBarral/gasaIndu.png'
+import barralAlgodon from '@/public/tradicional/hero/conBarral/gasaAlgodon.png'
+import barralTusor from '@/public/tradicional/hero/conBarral/tulsor.png'
+import barralBlack from '@/public/tradicional/hero/conBarral/blackout.png'
+import barralVoile from '@/public/tradicional/hero/conBarral/voile.png'
+
+import bandasBlackout from '@/public/bandas/hero/blackout.png'
+import bandasTranslucidas from '@/public/bandas/hero/translucida.png'
+import bandasSunscreen from '@/public/bandas/hero/sunscreen.png'
+
+import toldoLonaVinilica from '@/public/toldo/hero/lona.png'
+import toldoSunscreen from '@/public/toldo/hero/sunscreen.png'
+import toldoPVCcristal from '@/public/toldo/hero/cristal.png'
+
+
+
 
 const heroProducts = {
   tradicionalConBarral: {
-    cortinaName: 'Cortina Tradicional con Barral',
+    cortinaName: 'Tradicional con Barral',
     fabrics: [
       {
         title: "Gasa Indú",
-        description: "Tela perfecta para reducir la radiación solar y permitir la entrada de luz natural.",
-        image: gasa1
+        description: "Tela perfecta para reducir la radiación solar y permitir la entrada de luz.",
+        image: barralIndu
       },
       {
         title: "Gasa de Algodón",
         description: "Bloquea hasta el 99% de la radiación solar. Ideal para mayor privacidad.",
-        image: gasa2
+        image: barralAlgodon
       },
       {
         title: "Tusor pesado/ Tusor liviano",
         description: "Elimina completamente la entrada de luz, ideal para dormitorios o cines en casa.",
-        image: gasa3
+        image: barralTusor
       },
       {
         title: "Voilé de Hilo",
         description: "Elimina completamente la entrada de luz, ideal para dormitorios o cines en casa.",
-        image: gasa3
+        image: barralVoile
       },
       {
         title: "Otras telas",
         description: "Elimina completamente la entrada de luz, ideal para dormitorios o cines en casa.",
-        image: gasa3
+        image: barralBlack
       }
     ]
   },
   tradicionalConRiel: {
-    cortinaName: 'Cortina Tradicional con Riel Europeo',
+    cortinaName: 'Tradicional con Riel Europeo',
     fabrics: [
-      {
-        title: "Gasa Indú",
-        description: "Tela perfecta para reducir la radiación solar y permitir la entrada de luz natural.",
-        image: gasa1
-      },
       {
         title: "Gasa de Algodón",
         description: "Bloquea hasta el 99% de la radiación solar. Ideal para mayor privacidad.",
-        image: gasa2
+        image: rielAlgodon
       },
       {
-        title: "Tusor Pesado / Tusor Liviano",
-        description: "Elimina completamente la entrada de luz, ideal para dormitorios o cines en casa.",
-        image: gasa3
+        title: "Gasa Indú",
+        description: "Tela perfecta para reducir la radiación solar y permitir la entrada de luz.",
+        image: rielIndu
       },
       {
         title: "Voilé de Hilo/ Crepe/ Crash/ Camile/ Leonor",
-        description: "Elimina completamente la entrada de luz, ideal para dormitorios o cines en casa.",
-        image: gasa3
+        description: "Elimina completamente la entrada de luz, ideal para dormitorios.",
+        image: rielVoile
       },
       {
+        title: "Tusor Pesado / Tusor Liviano",
+        description: "Elimina completamente la entrada de luz, ideal para dormitorios.",
+        image: rielGros
+      },
+
+      {
         title: "Blackout Juliette/ de lino/ Melody",
-        description: "Elimina completamente la entrada de luz, ideal para dormitorios o cines en casa.",
-        image: gasa3
+        description: "Elimina completamente la entrada de luz, ideal para dormitorios.",
+        image: rielBlackout
       }
     ]
   },
   roller: {
-    cortinaName: 'Cortina Tradicional con Riel Europeo',
+    cortinaName: 'Cortina Roller',
     fabrics: [
-      {
-        title: "Blackout premium",
-        description: "Tela ligera y traslúcida que ofrece un toque de elegancia y permite la entrada de luz natural.",
-        image: voile1
-      },
+
       {
         title: "Sunscreen 5%",
         description: "Similar al voile tradicional, pero con mayor densidad para ofrecer más privacidad.",
-        image: voile2
+        image: rollerSuns5
       },
       {
-        title:  "Sunscreen 4%",
+        title: "Sunscreen 4%",
         description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
-        image: voile3
+        image: rollerSuns4
       },
       {
-        title:  "Sunscreen 1%",
+        title: "Sunscreen 1%",
         description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
-        image: voile3
-      }
+        image: rollerSuns1
+      },
+      {
+        title: "Blackout Premium",
+        description: "Tela ligera y traslúcida que ofrece un toque de elegancia y permite la entrada de luz natural.",
+        image: rollerBlackout
+      },
     ]
   },
   bandasVerticales: {
-    cortinaName: 'Cortina Tradicional con Riel Europeo',
+    cortinaName: 'Bandas Verticales',
     fabrics: [
       {
-        title: "Blackout premium",
-        description: "Tela ligera y traslúcida que ofrece un toque de elegancia y permite la entrada de luz natural.",
-        image: voile1
+        title: "Translúcidas",
+        description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
+        image: bandasTranslucidas
       },
       {
         title: "Sunscreen",
         description: "Similar al voile tradicional, pero con mayor densidad para ofrecer más privacidad.",
-        image: voile2
+        image: bandasSunscreen
       },
+
       {
-        title: "Translúcidas",
-        description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
-        image: voile3
-      }
+        title: "Blackout premium",
+        description: "Tela ligera y traslúcida que ofrece un toque de elegancia y permite la entrada de luz natural.",
+        image: bandasBlackout
+      },
     ]
   },
   toldosVerticales: {
-    cortinaName: 'Cortina Tradicional con Riel Europeo',
+    cortinaName: 'Toldos Verticales',
     fabrics: [
       {
-        title: "PVC cristal",
-        description: "Tela ligera y traslúcida que ofrece un toque de elegancia y permite la entrada de luz natural.",
-        image: voile1
+        title: "Sunscreen",
+        description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
+        image: toldoSunscreen
       },
       {
         title: "Lona vinílica",
         description: "Similar al voile tradicional, pero con mayor densidad para ofrecer más privacidad.",
-        image: voile2
+        image: toldoLonaVinilica
       },
+
       {
-        title: "Sunscreen",
-        description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
-        image: voile3
-      }
-    ]
-  },
-  panelesOrientales: {
-    cortinaName: 'Cortina Tradicional con Riel Europeo',
-    fabrics: [
-      {
-        title: "Telas engomadas",
+        title: "PVC cristal",
         description: "Tela ligera y traslúcida que ofrece un toque de elegancia y permite la entrada de luz natural.",
-        image: voile1
+        image: toldoPVCcristal
       },
-      {
-        title: "Sunscreen",
-        description: "Similar al voile tradicional, pero con mayor densidad para ofrecer más privacidad.",
-        image: voile2
-      },
-      {
-        title: "Gasas seleccionadas",
-        description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
-        image: voile3
-      }
     ]
   },
 };

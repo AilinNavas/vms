@@ -17,9 +17,9 @@ const Navbar = () => {
 
   return (
     <header className="bg-primary text-secondary font-arapey w-full ease-in duration-500 top-10 left-0 z-10">
-      <nav className=" max-w-7xl px-4 mx-auto h-32 flex justify-between items-center ">
+      <nav className=" max-w-7xl mx-auto h-32 flex justify-between ">
 
-        <div className="z-20 h-28 w-auto mr-10">
+        <div className="z-20 h-28 w-2/12 mr-12 mt-1.5 ">
           <Link href={'/'} onClick={handleSmallerScreenNavigation}>
             <Image src={logo} className="h-full w-full" />
           </Link>
@@ -27,15 +27,19 @@ const Navbar = () => {
 
         {/* larger screen navigation */}
 
-        <div className="flex justify-end items-center">
-          <ul className="hidden md:flex text-[20px] text-secondary space-x-6">
+        <div className="flex justify-end items-center  w-10/12">
+          <ul className="hidden md:flex text-[20px] text-secondary space-x-12">
 
             <Link href={'/'}><li className=" hover:text-gray ease-in-out duration-300">
               Sobre nosotros
             </li></Link>
 
-            <Link href={'/tradicional-con-riel'}><li className=" hover:text-gray ease-in-out duration-300">
-            Cortina Tradicional
+            <Link href={'/tradicional-con-riel'}><li className=" hover:text-gray ease-in-out duration-300 max-w-28">
+            Tradicional con Riel
+            </li></Link>
+
+            <Link href={'/tradicional-con-barral'}><li className=" hover:text-gray ease-in-out duration-300 max-w-28">
+          Tradicional con Barral
             </li></Link>
 
             <Link href={'/roller'}><li className=" hover:text-gray ease-in-out duration-300">
@@ -46,16 +50,12 @@ const Navbar = () => {
               Bandas Verticales
             </li></Link>
 
-            <Link href={'/paneles-orientales'}><li className=" hover:text-gray ease-in-out duration-300">
-              Paneles Orientales
-            </li></Link>
-
             <Link href={'/toldos-verticales'}> <li className=" hover:text-gray ease-in-out duration-300">
               Toldos Verticales
             </li></Link>
           </ul>
 
-          <div className="hidden md:flex">
+          <div className="hidden md:flex ml-12">
             <Link href={'/'}>
               <button className="rounded-full px-6 py-2 text-lg font-assistant bg-secondary text-primary  font-semibold border-secondary border-2 hover:bg-transparent hover:text-secondary ease-in duration-300">Contactar</button>
             </Link>
@@ -87,6 +87,9 @@ const Navbar = () => {
               <Link href={'/tradicional-con-riel'}><li onClick={handleSmallerScreenNavigation} className="py-5">
                 Tradicional con Riel</li></Link>
 
+                <Link href={'/paneles-orientales'}><li onClick={handleSmallerScreenNavigation} className="py-5">
+                Tradicional con Barral </li></Link>
+
               <Link href={'/roller'}><li onClick={handleSmallerScreenNavigation} className="py-5">
                 Cortina Roller </li></Link>
 
@@ -95,9 +98,6 @@ const Navbar = () => {
 
               <Link href={'/toldos-verticales'}><li onClick={handleSmallerScreenNavigation} className="py-5">
                 Toldos Verticales </li></Link>
-
-              <Link href={'/paneles-orientales'}><li onClick={handleSmallerScreenNavigation} className="py-5">
-                Paneles Ortientales </li></Link>
 
             </ul>
             <div className="py-5">

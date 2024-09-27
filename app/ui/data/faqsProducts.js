@@ -88,23 +88,5 @@ const faqsProducts = {
           "Ofrecemos opciones de automatización que permiten operar los toldos con un control remoto o integrarlos a su sistema domótico, brindando comodidad y control total sobre la luz y el clima exterior."
       },
     ],
-  
-    panelesOrientales: [
-      {
-        question: "¿Qué estilo de decoración complementan mejor los paneles orientales?",
-        answer:
-          "Los paneles orientales aportan un toque de modernidad y minimalismo, perfectos para espacios amplios y abiertos donde se busca un diseño limpio y sofisticado, con una influencia de la estética japonesa."
-      },
-      {
-        question: "¿Son los paneles orientales fáciles de manejar?",
-        answer:
-          "Sí, los paneles orientales se deslizan suavemente sobre sus rieles, permitiendo un control sencillo para abrir o cerrar el espacio, proporcionando flexibilidad y estilo en la distribución de su hogar."
-      },
-      {
-        question: "¿Qué opciones de personalización ofrecen los paneles orientales?",
-        answer:
-          "Ofrecemos una selección exclusiva de telas y colores para personalizar los paneles orientales, asegurando que cada instalación se ajuste perfectamente al diseño y estilo de su hogar."
-      },
-    ],
   };
   export default faqsProducts;

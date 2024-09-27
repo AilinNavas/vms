@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import logo from '@/public/logo2.svg'
 import phone from '@/public/icons/phone2.svg'
 import email from '@/public/icons/email2.svg'
@@ -15,12 +16,11 @@ const Footer = () => {
                         <h3 className="font-arapey mb-2 text-xl lg:text-2xl">Nuestros productos</h3>
                         <hr className='border-t-2 border-secondary w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
-                            <li>Cortina tradicional con riel</li>
-                            <li>Cortina tradicional con barral</li>
-                            <li>Cortina roller</li>
-                            <li>Bandas verticales</li>
-                            <li>Paneles orientales</li>
-                            <li>Toldos verticales</li>
+                            <Link href={'/tradicional-con-riel'}><li className="mb-2 hover:text-gray ease-in-out duration-300">Cortina tradicional con riel</li></Link>
+                            <Link href={'/tradicional-con-barral'}><li className="mb-2 hover:text-gray ease-in-out duration-300">Cortina tradicional con barral</li></Link>
+                            <Link href={'/roller'}><li className="mb-2  hover:text-gray ease-in-out duration-300">Cortina roller</li></Link>
+                            <Link href={'/bandas-verticales'}><li className="mb-2 hover:text-gray ease-in-out duration-300">Bandas verticales</li></Link>
+                            <Link href={'/toldos-verticales'}><li className="mb-2 hover:text-gray ease-in-out duration-300">Toldos verticales</li></Link>
                         </ul>
                     </div>
 
@@ -29,10 +29,10 @@ const Footer = () => {
                         <h3 className="font-arapey mb-2 text-xl lg:text-2xl">Sobre nosotros</h3>
                         <hr className='border-t-2 border-secondary w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
-                            <li>Empresa</li>
-                            <li>Servicios</li>
-                            <li>Preguntas frecuentes</li>
-                            <li>¿Necesitas ayuda?</li>
+                            <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">Empresa</li>
+                            <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">Servicios</li>
+                            <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">Preguntas frecuentes</li>
+                            <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">¿Necesitas ayuda?</li>
                         </ul>
                     </div>
 
@@ -53,18 +53,20 @@ const Footer = () => {
                                 <Image src={ws} alt='icono-whatsapp' className="w-5 h-5 mr-2" />
                                 +549 351-158507607
                             </li>
-                            <li className="flex items-center">
+                            <a href="https://www.instagram.com/vmscortinadosyservicios/?hl=es" target='_blank'><li className="flex items-center mt-2">
                                 <Image src={ig} alt='icono-instagram' className="w-5 h-5 mr-2" />
                                 vmscortinados
-                            </li>
+                            </li></a>
                         </ul>
                     </div>
                 </div>
 
                 {/* Sección del Logo */}
+              <Link href={'/'}>
                 <div className="mt-8 md:mt-0 flex items-center justify-center">
                     <Image src={logo} className="w-60 " />
                 </div>
+                </Link>
             </div>
 
         </footer>

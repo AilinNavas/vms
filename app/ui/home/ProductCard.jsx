@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const ProductCard = ({ title, description, imageUrl ,url }) => {
+const ProductCard = ({ title, description, imageUrl, url }) => {
   return (
     <Link href={url}><div className="group bg-transparent text-secondary border-2 border-secondary rounded-t-lg cursor-pointer overflow-hidden shadow-lg hover:bg-secondary hover:text-primary ease-in-out duration-300 ">
       <div className="relative w-full h-96">
