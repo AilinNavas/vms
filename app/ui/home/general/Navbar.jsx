@@ -16,13 +16,13 @@ const Navbar = () => {
         </div>
         {/* larger screen navigation */}
         <div className="flex justify-end items-center w-10/12">
-          <ul className="hidden lg:flex text-[20px] text-secondary space-x-12">
-            <Link href={'/sobre-nosotros'}><li className="hover:text-gray ease-in-out duration-300">Sobre nosotros</li></Link>
-            <Link href={'/tradicional-con-riel'}><li className="hover:text-gray ease-in-out duration-300">Tradicional con Riel</li></Link>
-            <Link href={'/tradicional-con-barral'}><li className="hover:text-gray ease-in-out duration-300">Tradicional con Barral</li></Link>
-            <Link href={'/roller'}><li className="hover:text-gray ease-in-out duration-300">Cortina Roller</li></Link>
-            <Link href={'/bandas-verticales'}><li className="hover:text-gray ease-in-out duration-300">Bandas Verticales</li></Link>
-            <Link href={'/toldos-verticales'}><li className="hover:text-gray ease-in-out duration-300">Toldos Verticales</li></Link>
+          <ul className="hidden lg:flex text-[20px] text-secondary space-x-12 ">
+            <Link href={'/sobre-nosotros'}><li className="hover:text-gray ease-in-out duration-300 ">Sobre nosotros</li></Link>
+            <Link href={'/tradicional-con-riel'}><li className="hover:text-gray ease-in-out duration-300 max-w-32 ">Tradicional con Riel</li></Link>
+            <Link href={'/tradicional-con-barral'}><li className="hover:text-gray ease-in-out duration-300 max-w-32 ">Tradicional con Barral</li></Link>
+            <Link href={'/roller'}><li className="hover:text-gray ease-in-out duration-300 ">Cortina Roller</li></Link>
+            <Link href={'/bandas-verticales'}><li className="hover:text-gray ease-in-out duration-300 ">Bandas Verticales</li></Link>
+            <Link href={'/toldos-verticales'}><li className="hover:text-gray ease-in-out duration-300 ">Toldos Verticales</li></Link>
           </ul>
           <div className="hidden lg:flex ml-12">
             <Link href={'/'}>
