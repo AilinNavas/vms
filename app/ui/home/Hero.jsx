@@ -1,6 +1,6 @@
 import Image from "next/image";
-import hero2 from '@/public/hero/3.png'
-import hero1 from '@/public/hero/mobile.png'
+import hero2 from '@/public/hero/3.webp'
+import hero1 from '@/public/hero/mobile.webp'
 import Link from "next/link";
 const Hero = () => {
     return (

@@ -39,7 +39,7 @@ import wideT3 from '@/public/tradicional/grid/wideT3.png'
 const galleryData = {
 
     tradicionalConBarral: {
-        title: 'Elegancia atemporal en cada pliegue',
+        title: 'Elegancia en cada pliegue',
         description: "Las cortinas tradicionales con barral transforman cualquier espacio con una sensación de calidez y sofisticación. Cada pliegue, cuidadosamente diseñado, añade un toque clásico que convierte tu hogar en un refugio acogedor, mientras resalta la belleza natural de tus ventanas.",
         images: [
             { src: squareTB1, alt: 'img-tradicional-barral-cuadrada-1' },

@@ -37,7 +37,7 @@ const faqsProducts = {
   
     roller: [
       {
-        question: "¿Qué hace que las cortinas roller sean una opción sofisticada para hogares de lujo?",
+        question: "¿Qué hace que las cortinas roller sean una opción sofisticada para el hogar?",
         answer:
           "Las cortinas roller ofrecen una estética moderna y limpia, que se complementa con opciones de tejidos premium como blackout o screen, lo que permite un control preciso de la luz sin sacrificar el estilo."
       },

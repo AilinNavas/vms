@@ -14,7 +14,7 @@ import check from '@/public/check.svg'
 import NavbarMobile from "../ui/home/general/NavbarMobile";
 import Whatsapp from "../ui/home/general/Whatsapp";
 import Footer from "../ui/home/general/Footer";
-import ContactUs from "../ui/home/ContactUs";
+import ContactForm from "../ui/home/general/ContactForm";
 
 export default function BandaVertical() {
 
@@ -39,7 +39,7 @@ export default function BandaVertical() {
       <Values values={oneValues} />
       <Benefits benefits={benefitsData.bandasVerticales} />
       <Values values={twoValues} />
-      <ContactUs />
+      <ContactForm />
       <Faqs title="Preguntas Frecuentes "
         description=""
         items={faqsProducts.bandasVerticales}
