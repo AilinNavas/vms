@@ -51,7 +51,7 @@ const WhyChooseUs = () => {
                 quality={75}
                 className="transition-transform duration-300 group-hover:scale-110"
               />
-              <div className="absolute inset-1 top-32 left-14 w-60 h-64 md:top-40 md:left-4 lg:left-10 bg-primary bg-opacity-80 md:w-48 md:h-56 lg:h-40 lg:w-80 flex flex-col justify-center items-center text-center p-4 transition-opacity duration-300 group-hover:bg-opacity-100">
+              <div className="absolute inset-1 top-32 left-16 w-60 h-64 md:top-40 md:left-4 lg:left-10 bg-primary bg-opacity-80 md:w-48 md:h-56 lg:h-40 lg:w-80 flex flex-col justify-center items-center text-center p-4 transition-opacity duration-300 group-hover:bg-opacity-100">
                 <h3 className="text-2xl font-semibold mb-2">
                   {feature.title}
                 </h3>

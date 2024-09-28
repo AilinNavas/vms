@@ -31,7 +31,7 @@
    {
      title: 'Bandas Verticales',
      description:
-       'Una opción versátil que aporta dinamismo y funcionalidad avanzada, creando un ambiente a la altura de tus expectativas.',
+       'Su diseño estilizado permite un control efectivo de la luz, aportando un toque distintivo a la decoración de tus ambientes',
      imageUrl: bandas,
      url: '/bandas-verticales'
    },

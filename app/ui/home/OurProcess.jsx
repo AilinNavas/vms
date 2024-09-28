@@ -1,9 +1,4 @@
 
- import Image from 'next/image';
- import asesoramiento from '@/public/icons/1.svg';
- import medicion from '@/public/icons/2.svg';
- import instalacion from '@/public/icons/3.svg';
-
  const OurProcess = () => {
    const OurProcess = [
      {
