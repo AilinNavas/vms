@@ -5,9 +5,9 @@ import Image from 'next/image'
 
 const Benefits = ({ benefits }) => {
   return (
-    <div className='py-16  bg-primary font-assistant text-secondary text-lg lg:text-xl '>
+    <div className='py-16 bg-primary font-assistant text-secondary text-lg lg:text-xl '>
           <header className='px-4 max-w-7xl mx-auto'>
-           <h2 className='text-secondary font-arapey text-3xl md:text-5xl'>Beneficios</h2>
+           <h2 className='text-secondary font-arapey text-3xl md:text-5xl pb-4 lg:pb-0'>Beneficios</h2>
          </header>
       <div className="px-4 max-w-7xl mx-auto space-y-8 lg:space-y-16">
   

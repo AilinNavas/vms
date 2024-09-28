@@ -5,7 +5,6 @@ import Benefits from "../ui/products/Benefits";
 import Gallery from "../ui/products/Gallery";
 import InfoTop from "../ui/home/general/InfoTop";
 import Values from "../ui/products/Values";
-import WhatsappForm from "../ui/products/WhatsappForm";
 import galleryData from "../ui/data/galleryData";
 import benefitsData from "../ui/data/benefitsData";
 import InfoBottom from "../ui/home/general/InfoBottom";
@@ -16,6 +15,7 @@ import Footer from "../ui/home/general/Footer";
 import check from '@/public/check.svg'
 import NavbarMobile from "../ui/home/general/NavbarMobile";
 import Whatsapp from "../ui/home/general/Whatsapp";
+import ContactForm from "../ui/home/general/ContactForm";
 
 export default function Tradicional() {
   const { title, description, images } = galleryData.tradicionalConRiel;
@@ -43,7 +43,7 @@ export default function Tradicional() {
       <Values values={oneValues}/>
       <Benefits benefits={benefitsData.tradicionalConRiel} />
       <Values values={twoValues} />
-      <WhatsappForm />
+      <ContactForm />
       <Faqs title="Preguntas Frecuentes"
         description=""
         items={faqsProducts.tradicionalConRiel}

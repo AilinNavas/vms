@@ -17,7 +17,7 @@ const HeroProducts = ({ productData }) => {
                         {fabrics.map((item, index) => (
                             <div
                                 key={index}
-                                className={`mb-4 border-t py-1 px-2 ${activeIndex === index ? 'border-secondary' : 'border-secondary/50'}`}>
+                                className={`mb-4 border-b-2 py-1 px-2 ${activeIndex === index ? 'border-secondary' : 'border-secondary/50'}`}>
                                 <h4 onClick={() => setActiveIndex(index)}
                                     className={`cursor-pointer flex items-center justify-between font-arapey pb-2 text-xl md:text-2xl hover:text-secondary ${activeIndex === index ? 'text-secondary font-medium' : 'text-secondary/80'}`}>
                                     {item.title}

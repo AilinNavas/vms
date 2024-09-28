@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input {
+    -webkit-appearance: none; /* Remueve el estilo predeterminado en navegadores Webkit */
+    -moz-appearance: none;    /* Remueve el estilo predeterminado en navegadores Firefox */
+    appearance: none;
+  }
