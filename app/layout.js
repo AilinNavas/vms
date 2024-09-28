@@ -23,7 +23,7 @@ const nunito = Nunito({
 
 export const metadata = {
   title: "VMS Cortinados & Servicios",
-  description: "Empresa con 30 años de experiencia que diseña y vende cortinados calidad premium ",
+  description: "Empresa de Córdoba Capital dedicada al diseño y venta de cortinas de calidad premium con 30 años de experiencia",
 };
 
 export default function RootLayout({ children }) {
