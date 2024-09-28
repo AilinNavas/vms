@@ -52,7 +52,7 @@ const HeroProducts = ({ productData }) => {
                         ))}
 
                         <div className='text-center py-4'>
-                            <a href={'https://walink.co/82c00b'} target='_blank' ><button className='rounded-full px-6 py-2 bg-secondary border-secondary border-2 text-primary font-assistant text-lg font-semibold hover:bg-transparent hover:text-secondary ease-in duration-300'>Cotizar ahora</button></a>
+                            <a href={'https://walink.co/7712bc'} target='_blank' ><button className='rounded-full px-6 py-2 bg-secondary border-secondary border-2 text-primary font-assistant text-lg font-semibold hover:bg-transparent hover:text-secondary ease-in duration-300'>Cotizar ahora</button></a>
                         </div>
                     </div>
                 </div>
