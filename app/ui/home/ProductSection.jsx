@@ -31,7 +31,7 @@
    {
      title: 'Bandas Verticales',
      description:
-       'Su diseño estilizado permite un control efectivo de la luz, aportando un toque distintivo a la decoración de tus ambientes',
+       'Su diseño estilizado permite un control efectivo de la luz, aportando un toque distintivo a la decoración de tus ambientes.',
      imageUrl: bandas,
      url: '/bandas-verticales'
    },
