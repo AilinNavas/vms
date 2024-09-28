@@ -12,9 +12,13 @@ import WhyChooseUs from "./ui/home/WhyChooseUs";
 import FaqsHome from "./ui/data/faqsHome";
 import SliderTrust from "./ui/products/SliderTrust";
 import NavbarMobile from "./ui/home/general/NavbarMobile";
+import galleryData from "./ui/data/galleryData";
+import Gallery from "./ui/products/Gallery";
 
 
 export default function Home() {
+
+  const { title, description, images } = galleryData.sobreNosotros
   return (
     <main className="">
       <InfoTop faqsHref={'#faqs'} />
@@ -31,7 +35,7 @@ export default function Home() {
       description=""
       items={FaqsHome} id='faqs' />
       {/* <GetAQuote /> */}
-
+      <Gallery title={title} description={description} images={images}/>
       <Footer />
       <InfoBottom />
      

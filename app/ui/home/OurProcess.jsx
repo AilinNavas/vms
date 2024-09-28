@@ -26,12 +26,12 @@
 
    return (
      <section className='bg-primary'>
-       <div className='mx-auto max-w-7xl py-16 px-4 flex flex-col justify-center'>
+       <div className='mx-auto max-w-7xl pt-32 pb-16 px-4 flex flex-col justify-center'>
          <header className='pb-8'>
            <h2 className='text-secondary font-arapey text-3xl md:text-5xl'>Nuestro proceso</h2>
          </header>
          {/* <div className="flex flex-wrap justify-center space-y-4 md:space-x-4 md:space-y-4 lg:space-y-0 lg:justify-around"> */}
-         <div className="grid  gap-6 grid-cols-1 justify-items-center items-center md:grid-cols-2 lg:grid-cols-3">
+         <div className="grid gap-6 grid-cols-1 justify-items-center items-center md:grid-cols-2 lg:grid-cols-3">
            {OurProcess.map((value, index) => (
              <div
                key={index}

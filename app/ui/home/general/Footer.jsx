@@ -8,13 +8,13 @@ import ws from '@/public/icons/whatsapp.svg'
 
 const Footer = () => {
     return (
-        <footer className="bg-primary text-secondary py-8 ">
+        <footer className="bg-primary text-secondary py-16 ">
             <div className="max-w-7xl mx-auto px-4 ">
                 <div className="flex flex-col md:flex-row justify-between space-y-8 md:space-y-0">
                     {/* Sección de Productos */}
                     <div className="flex-1 ">
                         <h3 className="font-arapey mb-2 text-xl lg:text-2xl">Nuestros productos</h3>
-                        <hr className='border-t-2 border-secondary w-[75%] mt-2 mb-4' />
+                        <hr className='border-t-2 border-secondary/50 w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
                             <Link href={'/tradicional-con-riel'}><li className="mb-2 hover:text-gray ease-in-out duration-300">Cortina tradicional con riel</li></Link>
                             <Link href={'/tradicional-con-barral'}><li className="mb-2 hover:text-gray ease-in-out duration-300">Cortina tradicional con barral</li></Link>
@@ -27,7 +27,7 @@ const Footer = () => {
                     {/* Sección Sobre Nosotros */}
                     <div className="flex-1 ">
                         <h3 className="font-arapey mb-2 text-xl lg:text-2xl">Sobre nosotros</h3>
-                        <hr className='border-t-2 border-secondary w-[75%] mt-2 mb-4' />
+                        <hr className='border-t-2 border-secondary/50 w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
                             <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">Empresa</li>
                             <Link href={'#servicios'}><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">Servicios</li></Link>
@@ -39,7 +39,7 @@ const Footer = () => {
                     {/* Sección de Contacto */}
                     <div className="flex-1 ">
                         <h3 className="mb-2 font-arapey text-xl lg:text-2xl">Contactar</h3>
-                        <hr className='border-t-2 border-secondary w-[75%] mt-2 mb-4' />
+                        <hr className='border-t-2 border-secondary/50 w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
                             <li className="flex items-center">
 

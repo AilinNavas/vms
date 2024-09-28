@@ -27,9 +27,9 @@ const features = [
 const WhyChooseUs = () => {
   return (
     <section className='bg-primary text-secondary'>
-      <div  id='servicios' className='mx-auto max-w-7xl py-20 px-4 flex flex-col justify-center'>
-        <h2 className="text-secondary font-arapey text-3xl md:text-5xl mb-6">¿Por qué elegirnos?</h2>
-        <p className="mb-10 font-assistant text-lg lg:text-xl">
+      <div  id='servicios' className='mx-auto max-w-7xl pt-16 pb-8 px-4 flex flex-col justify-center'>
+        <h2 className="text-secondary font-arapey text-3xl md:text-5xl mb-8">¿Por qué elegirnos?</h2>
+        <p className="mb-8 font-assistant text-lg lg:text-xl">
           En VMS, nos especializamos en ofrecer soluciones únicas y
           personalizadas para cada cliente. Con una selección exclusiva de
           telas, proyectos diseñados a medida, y un servicio de limpieza
