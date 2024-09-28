@@ -25,9 +25,9 @@ const Navbar = () => {
             <Link href={'/toldos-verticales'}><li className="hover:text-gray ease-in-out duration-300 ">Toldos Verticales</li></Link>
           </ul>
           <div className="hidden lg:flex ml-12">
-            <Link href={'/'}>
+            <a href={'https://walink.co/7712bc'} target='_blank'>
               <button className="rounded-full px-6 py-2 text-lg font-assistant bg-secondary text-primary font-semibold border-secondary border-2 hover:bg-transparent hover:text-secondary ease-in duration-300">Contactar</button>
-            </Link>
+            </a>
           </div>
         </div>
       </nav>
