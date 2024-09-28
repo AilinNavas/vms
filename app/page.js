@@ -36,7 +36,7 @@ export default function Home() {
       items={FaqsHome} id='faqs' />
       {/* <GetAQuote /> */}
       <Gallery title={title} description={description} images={images}/>
-      <Footer />
+      <Footer faqsHref={'#faqs'} serviceHref={'#servicios'}/>
       <InfoBottom />
      
     </main>

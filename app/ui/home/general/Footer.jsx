@@ -6,7 +6,7 @@ import email from '@/public/icons/email2.svg'
 import ig from '@/public/icons/instagram.svg'
 import ws from '@/public/icons/whatsapp.svg'
 
-const Footer = () => {
+const Footer = ({faqsHref, serviceHref}) => {
     return (
         <footer className="bg-primary text-secondary py-16 ">
             <div className="max-w-7xl mx-auto px-4 ">
@@ -30,8 +30,8 @@ const Footer = () => {
                         <hr className='border-t-2 border-secondary/50 w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
                             <Link href={'/sobre-nosotros'}><li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">Empresa</li></Link>
-                            <Link href={'#servicios'}><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">Servicios</li></Link>
-                            <Link href="#faqs"><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">Preguntas frecuentes</li></Link>
+                            <Link href={serviceHref}><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">Servicios</li></Link>
+                            <Link href={faqsHref}><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">Preguntas frecuentes</li></Link>
                             <Link href={'https://walink.co/82c00b'}><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">¿Necesitas ayuda?</li></Link>
                         </ul>
                     </div>

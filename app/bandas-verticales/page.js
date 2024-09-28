@@ -45,10 +45,8 @@ export default function BandaVertical() {
         items={faqsProducts.bandasVerticales}
         id='faqs-bandas' />
       <Gallery title={title} description={description} images={images} />
-      <Footer />
+      <Footer faqsHref={'#faqs-bandas'} serviceHref={'/'}/>
       <InfoBottom />
-
-
 
     </main>
   );

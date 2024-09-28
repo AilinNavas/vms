@@ -49,7 +49,7 @@ export default function Tradicional() {
         items={faqsProducts.tradicionalConRiel}
          id='faqs-con-riel' />
       <Gallery title={title} description={description} images={images} />
-      <Footer />
+      <Footer faqsHref={'#faqs-con-riel'} serviceHref={'/'}/>
       <InfoBottom />
 
 

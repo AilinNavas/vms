@@ -46,7 +46,7 @@ export default function Roller() {
         items={faqsProducts.roller}
         id='faqs-roller' />
       <Gallery title={title} description={description} images={images} />
-      <Footer />
+      <Footer faqsHref={'#faqs-roller'} serviceHref={'/'} />
       <InfoBottom />
 
 

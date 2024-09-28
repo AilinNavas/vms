@@ -23,7 +23,7 @@ export default function SobreNosotros() {
       <Whatsapp />
       <AboutUs />
       <Gallery title={title} description={description} images={images}/>
-      <Footer />
+      <Footer faqsHref={'/'} serviceHref={'/'}/>
       <InfoBottom />
 
 

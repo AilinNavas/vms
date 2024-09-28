@@ -45,7 +45,7 @@ export default function Tradicional() {
         items={faqsProducts.tradicionalConBarral}
         id='faqs-con-barral' />
       <Gallery title={title} description={description} images={images} />
-      <Footer />
+      <Footer faqsHref={'#faqs-con-barral'} serviceHref={'/'} />
       <InfoBottom />
 
 

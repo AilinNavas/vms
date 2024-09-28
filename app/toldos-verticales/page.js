@@ -47,7 +47,7 @@ export default function ToldoVertical() {
         items={faqsProducts.toldosVerticales}
         id='faqs-toldos' />
       <Gallery title={title} description={description} images={images} />
-      <Footer />
+      <Footer faqsHref={'#faqs-toldos'} serviceHref={'/'}/>
       <InfoBottom />
 
 
