@@ -29,28 +29,28 @@ const heroProducts = {
     cortinaName: 'Tradicional con Barral',
     fabrics: [
       {
-        title: "Gasa Indú",
-        description: "Tela perfecta para reducir la radiación solar y permitir la entrada de luz.",
-        image: barralIndu
-      },
-      {
         title: "Gasa de Algodón",
-        description: "Bloquea hasta el 99% de la radiación solar. Ideal para mayor privacidad.",
+        description: "Aireada y delicada, ideal para ambientes frescos.",
         image: barralAlgodon
       },
       {
-        title: "Tusor pesado/ Tusor liviano",
-        description: "Elimina completamente la entrada de luz, ideal para dormitorios o cines en casa.",
-        image: barralTusor
+        title: "Gasa Hindú",
+        description: "Ligera, fresca y suave transparencia elegante.",
+        image: barralIndu
       },
       {
-        title: "Voilé de Hilo",
-        description: "Elimina completamente la entrada de luz, ideal para dormitorios o cines en casa.",
+        title: "Voile de Hilo / Crepe / Crash / Camile / Leonor",
+        description: "Textura suave con caída fluida.",
         image: barralVoile
       },
       {
-        title: "Otras telas",
-        description: "Elimina completamente la entrada de luz, ideal para dormitorios o cines en casa.",
+        title: "Tusor pesado / Tusor liviano",
+        description: "Textura robusta que aporta calidez.",
+        image: barralTusor
+      },
+      {
+        title: "Blackout Juliette / de lino / Melody",
+        description: "Bloquea el paso de luz y permite control térmico.",
         image: barralBlack
       }
     ]
@@ -60,28 +60,28 @@ const heroProducts = {
     fabrics: [
       {
         title: "Gasa de Algodón",
-        description: "Bloquea hasta el 99% de la radiación solar. Ideal para mayor privacidad.",
+        description: "Aireada y delicada, ideal para ambientes frescos.",
         image: rielAlgodon
       },
       {
-        title: "Gasa Indú",
-        description: "Tela perfecta para reducir la radiación solar y permitir la entrada de luz.",
+        title: "Gasa Hindú",
+        description: "Ligera, fresca y suave transparencia elegante.",
         image: rielIndu
       },
       {
-        title: "Voilé de Hilo/ Crepe/ Crash/ Camile/ Leonor",
-        description: "Elimina completamente la entrada de luz, ideal para dormitorios.",
+        title: "Voile de Hilo / Crepe / Crash / Camile / Leonor",
+        description: "Textura suave con caída fluida.",
         image: rielVoile
       },
       {
         title: "Tusor Pesado / Tusor Liviano",
-        description: "Elimina completamente la entrada de luz, ideal para dormitorios.",
+        description: "Textura robusta que aporta calidez.",
         image: rielGros
       },
 
       {
-        title: "Blackout Juliette/ de lino/ Melody",
-        description: "Elimina completamente la entrada de luz, ideal para dormitorios.",
+        title: "Blackout Juliette / de lino / Melody",
+        description: "Bloquea el paso de luz y permite control térmico.",
         image: rielBlackout
       }
     ]
@@ -92,22 +92,22 @@ const heroProducts = {
 
       {
         title: "Sunscreen 5%",
-        description: "Similar al voile tradicional, pero con mayor densidad para ofrecer más privacidad.",
+        description: "Control de luz manteniendo máxima visibilidad exterior.",
         image: rollerSuns5
       },
       {
         title: "Sunscreen 4%",
-        description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
+        description: "Equilibrio entre luz y privacidad.",
         image: rollerSuns4
       },
       {
         title: "Sunscreen 1%",
-        description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
+        description: "Máximo control solar y privacidad.",
         image: rollerSuns1
       },
       {
         title: "Blackout Premium",
-        description: "Tela ligera y traslúcida que ofrece un toque de elegancia y permite la entrada de luz natural.",
+        description: "Bloquea el paso de luz y permite control térmico.",
         image: rollerBlackout
       },
     ]
@@ -117,18 +117,18 @@ const heroProducts = {
     fabrics: [
       {
         title: "Translúcidas",
-        description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
+        description: "Permite luz suave manteniendo privacidad.",
         image: bandasTranslucidas
       },
       {
         title: "Sunscreen",
-        description: "Similar al voile tradicional, pero con mayor densidad para ofrecer más privacidad.",
+        description: "Filtra luz natural de manera sutil.",
         image: bandasSunscreen
       },
 
       {
-        title: "Blackout premium",
-        description: "Tela ligera y traslúcida que ofrece un toque de elegancia y permite la entrada de luz natural.",
+        title: "Blackout Premium",
+        description: "Bloquea el paso de luz y permite control térmico.",
         image: bandasBlackout
       },
     ]
@@ -138,18 +138,18 @@ const heroProducts = {
     fabrics: [
       {
         title: "Sunscreen",
-        description: "Opción ideal para bloquear completamente la luz, creando un ambiente oscuro.",
+        description: "Filtra luz natural sin bloquear vistas.",
         image: toldoSunscreen
       },
       {
-        title: "Lona vinílica",
-        description: "Similar al voile tradicional, pero con mayor densidad para ofrecer más privacidad.",
+        title: "Lona Vinílica",
+        description: "Resistente y duradera, perfecta para exteriores.",
         image: toldoLonaVinilica
       },
 
       {
-        title: "PVC cristal",
-        description: "Tela ligera y traslúcida que ofrece un toque de elegancia y permite la entrada de luz natural.",
+        title: "PVC Cristal",
+        description: "Transparente y flexible.",
         image: toldoPVCcristal
       },
     ]
