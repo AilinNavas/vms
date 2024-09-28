@@ -14,6 +14,7 @@ import heroProducts from "../ui/data/heroProducts";
 import check from '@/public/check.svg'
 import NavbarMobile from "../ui/home/general/NavbarMobile";
 import Whatsapp from "../ui/home/general/Whatsapp";
+import Footer from "../ui/home/general/Footer";
 
 
 export default function Roller() {
@@ -31,20 +32,21 @@ export default function Roller() {
   const { title, description, images } = galleryData.roller;
   return (
     <main className="">
-      <InfoTop faqsHref={'#faqs-roller'}/>
+      <InfoTop faqsHref={'#faqs-roller'} />
       <Navbar />
       <NavbarMobile />
       <Whatsapp />
       <HeroProducts productData={heroProducts.roller} />
-      <Values values={oneValues}/>
+      <Values values={oneValues} />
       <Benefits benefits={benefitsData.roller} />
-      <Values values={twoValues}/>
-      <Gallery title={title} description={description} images={images} />
+      <Values values={twoValues} />
       <WhatsappForm />
       <Faqs title="Preguntas frecuentes"
         description=""
-        items={faqsProducts.roller} 
-        id='faqs-roller'/>
+        items={faqsProducts.roller}
+        id='faqs-roller' />
+      <Gallery title={title} description={description} images={images} />
+      <Footer />
       <InfoBottom />
 
 

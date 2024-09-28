@@ -42,13 +42,13 @@ export default function Tradicional() {
       <HeroProducts productData={heroProducts.tradicionalConRiel} />
       <Values values={oneValues}/>
       <Benefits benefits={benefitsData.tradicionalConRiel} />
-      <Gallery title={title} description={description} images={images} />
-      <WhatsappForm />
       <Values values={twoValues} />
+      <WhatsappForm />
       <Faqs title="Preguntas Frecuentes"
         description=""
         items={faqsProducts.tradicionalConRiel}
          id='faqs-con-riel' />
+      <Gallery title={title} description={description} images={images} />
       <Footer />
       <InfoBottom />
 

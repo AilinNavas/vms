@@ -14,6 +14,7 @@ import heroProducts from "../ui/data/heroProducts";
 import check from '@/public/check.svg'
 import NavbarMobile from "../ui/home/general/NavbarMobile";
 import Whatsapp from "../ui/home/general/Whatsapp";
+import Footer from "../ui/home/general/Footer";
 
 export default function BandaVertical() {
 
@@ -30,20 +31,21 @@ export default function BandaVertical() {
   const { title, description, images } = galleryData.bandasVerticales;
   return (
     <main className="">
-      <InfoTop faqsHref={'#faqs-bandas'}/>
+      <InfoTop faqsHref={'#faqs-bandas'} />
       <Navbar />
       <NavbarMobile />
       <Whatsapp />
       <HeroProducts productData={heroProducts.bandasVerticales} />
-      <Values values={oneValues}/>
+      <Values values={oneValues} />
       <Benefits benefits={benefitsData.bandasVerticales} />
-      <Values values={twoValues}/>
-      <Gallery title={title} description={description} images={images} />
+      <Values values={twoValues} />
       <WhatsappForm />
       <Faqs title="Preguntas Frecuentes "
         description=""
         items={faqsProducts.bandasVerticales}
         id='faqs-bandas' />
+      <Gallery title={title} description={description} images={images} />
+      <Footer />
       <InfoBottom />
 
 

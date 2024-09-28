@@ -29,7 +29,7 @@ const Footer = () => {
                         <h3 className="font-arapey mb-2 text-xl lg:text-2xl">Sobre nosotros</h3>
                         <hr className='border-t-2 border-secondary/50 w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
-                            <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">Empresa</li>
+                            <Link href={'/sobre-nosotros'}><li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">Empresa</li></Link>
                             <Link href={'#servicios'}><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">Servicios</li></Link>
                             <Link href="#faqs"><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">Preguntas frecuentes</li></Link>
                             <Link href={'https://walink.co/82c00b'}><li className="mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">¿Necesitas ayuda?</li></Link>

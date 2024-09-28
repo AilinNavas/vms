@@ -14,6 +14,7 @@ import heroProducts from "../ui/data/heroProducts";
 import check from '@/public/check.svg'
 import NavbarMobile from "../ui/home/general/NavbarMobile";
 import Whatsapp from "../ui/home/general/Whatsapp";
+import Footer from "../ui/home/general/Footer";
 
 export default function Tradicional() {
   const { title, description, images } = galleryData.tradicionalConBarral;
@@ -27,23 +28,24 @@ export default function Tradicional() {
     { icon: check, text: 'Satisfacción garantizada' },
     { icon: check, text: '30 Años De Trayectoria' }
   ];
-  
+
   return (
     <main className="">
-      <InfoTop faqsHref={'#faqs-con-barral'}/>
+      <InfoTop faqsHref={'#faqs-con-barral'} />
       <Navbar />
-      <NavbarMobile/>
+      <NavbarMobile />
       <Whatsapp />
-      <HeroProducts productData={heroProducts.tradicionalConBarral}/>
-      <Values values={oneValues}/>
+      <HeroProducts productData={heroProducts.tradicionalConBarral} />
+      <Values values={oneValues} />
       <Benefits benefits={benefitsData.tradicionalConBarral} />
-      <Gallery title={title} description={description} images={images} />
+      <Values values={twoValues} />
       <WhatsappForm />
-      <Values values={twoValues}/>
       <Faqs title="Preguntas Frecuentes"
         description=""
-        items={faqsProducts.tradicionalConBarral} 
-        id='faqs-con-barral'/>
+        items={faqsProducts.tradicionalConBarral}
+        id='faqs-con-barral' />
+      <Gallery title={title} description={description} images={images} />
+      <Footer />
       <InfoBottom />
 
 
