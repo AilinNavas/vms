@@ -7,7 +7,7 @@ import logo from '@/public/icons/logo2.svg';
 
 const NavbarMobile = () => {
     return (
-        <div className='lg:hidden'>
+        <div className='md:mt-10 lg:hidden'>
             <div className='flex items-center bg-primary justify-between py-2'>
                 <div className="z-40 h-24 ml-4">
                     <Link href={'/'}>
