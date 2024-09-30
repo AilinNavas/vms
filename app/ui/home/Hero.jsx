@@ -36,8 +36,8 @@ import Link from "next/link";
 const Hero = () => {
     return (
         <div className='relative py-16 md:py-40'>
-            <div className="px-4 max-w-7xl mx-auto space-y-4 ">
-                <h1 className="text-[44px] leading-tight md:text-7xl max-w-3xl font-arapey text-primary">Cortinas a medida en Córdoba Capital</h1>
+            <div className="px-4 max-w-7xl mx-auto space-y-4">
+                <h1 className="text-5xl md:text-7xl max-w-3xl font-arapey text-primary ">Cortinas a medida en Córdoba</h1>
                 <span className="font-assistant text-primary text-xl md:text-3xl block lg:max-w-2xl">Somos especialistas para aquellos que buscan diferenciación y calidad superior</span>
             </div>
 
