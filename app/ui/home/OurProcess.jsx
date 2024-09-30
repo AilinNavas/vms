@@ -25,7 +25,6 @@
          <header className='pb-8'>
            <h2 className='text-secondary font-arapey text-3xl md:text-5xl'>Nuestro proceso</h2>
          </header>
-         {/* <div className="flex flex-wrap justify-center space-y-4 md:space-x-4 md:space-y-4 lg:space-y-0 lg:justify-around"> */}
          <div className="grid gap-6 grid-cols-1 justify-items-center items-center md:grid-cols-2 lg:grid-cols-3">
            {OurProcess.map((value, index) => (
              <div

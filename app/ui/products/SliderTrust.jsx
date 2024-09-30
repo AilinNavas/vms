@@ -52,7 +52,7 @@ const SliderTrust = () => {
         </div>
 
         <div className='text-center'>
-          <button className="rounded-full px-6 py-2 bg-primary border-2 border-primary text-secondary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-primary ease-in duration-300">Obtener una asesoría personalizada</button>
+        <a href={'https://walink.co/82c00b'} target='_blank'  rel="noopener noreferrer"><button className="rounded-full px-6 py-2 bg-primary border-2 border-primary text-secondary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-primary ease-in duration-300">Obtener una asesoría personalizada</button></a>
         </div>
       </div>
     </section>

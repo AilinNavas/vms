@@ -23,4 +23,4 @@ const InfoTop = ({ faqsHref }) => {
     )
 }
 
-export default InfoTop
+export default InfoTop 

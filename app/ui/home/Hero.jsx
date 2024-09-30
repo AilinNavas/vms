@@ -37,12 +37,10 @@ const Hero = () => {
     return (
         <div className='relative py-16 md:py-40'>
             <div className="px-4 max-w-7xl mx-auto space-y-4 ">
-                {/* <h1 className="text-5xl md:text-7xl max-w-3xl font-arapey text-primary ">Diseños Exclusivos, Espacios Inolvidables</h1> */}
                 <h1 className="text-[44px] leading-tight md:text-7xl max-w-3xl font-arapey text-primary">Cortinas a medida en Córdoba Capital</h1>
                 <span className="font-assistant text-primary text-xl md:text-3xl block lg:max-w-2xl">Somos especialistas para aquellos que buscan diferenciación y calidad superior</span>
             </div>
-{/* 
-            <div className="px-4 max-w-7xl flex flex-col items-start space-y-2 md:space-y-0 md:flex-row md:space-x-2 mx-auto mt-4 "> */}
+
             
             <div className="px-4 max-w-7xl mx-auto mt-4">
                 <div className=" flex flex-col md:flex-row w-44 md:w-96 md:items-center space-y-2 md:space-y-0 md:space-x-2">
