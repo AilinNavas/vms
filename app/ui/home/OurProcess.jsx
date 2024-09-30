@@ -35,7 +35,7 @@
              >
                <div className="flex items-center justify-start mb-4">
                  <span className="font-arapey text-secondary text-2xl md:text-3xl mr-2">{value.number}</span> 
-                 <h6 className="text-2xl md:text-3xl  text-secondary font-arapey">{value.title}</h6>
+                 <h3 className="text-2xl md:text-3xl  text-secondary font-arapey">{value.title}</h3>
                </div>
                <p className="text-gray text-left font-assistant text-lg md:text-xl ">{value.detail}</p>
              </div>

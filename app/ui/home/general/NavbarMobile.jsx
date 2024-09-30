@@ -11,7 +11,7 @@ const NavbarMobile = () => {
             <div className='flex items-center bg-primary justify-between py-2'>
                 <div className="z-40 h-24 ml-4">
                     <Link href={'/'}>
-                        <Image src={logo} className="h-full w-full" />
+                        <Image src={logo} className="h-full w-full" alt='Logotipo de la empresa'/>
                     </Link>
                 </div>
                 <AnimatedHamburgerButton />
@@ -35,6 +35,7 @@ const AnimatedHamburgerButton = () => {
                     onClick={() => setActive(pv => !pv)}
                     className='relative z-20 h-14 w-14 rounded-full bg-secondary/0 transition-colors hover:bg-secondary/10'
                     animate={active ? "open" : "closed"}
+                    aria-label="Abrir y cerrar menú"
                 >
                     <motion.span
                         style={{ left: "50%", top: "35%", x: "-50%", y: "-50%" }}

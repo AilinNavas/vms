@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav className="max-w-7xl mx-auto h-32 flex justify-between">
         <div className="z-20 h-28 w-2/12 mr-12 mt-1.5">
           <Link href={'/'}>
-            <Image src={logo} className="h-full w-full" />
+            <Image src={logo} className="h-full w-full" alt='Logotipo de la empresa' />
           </Link>
         </div>
         {/* larger screen navigation */}
