@@ -12,35 +12,35 @@
      description:
        'Diseñadas para deslizarse con suavidad y perfección, la sofisticación se une a la funcionalidad en un sistema que redefine el lujo en cada detalle.',
      imageUrl: tradicionalRiel,  
-     url: '/tradicional-con-riel'
+     url: '/cortinas/tradicional-con-riel'
    },
    {
      title: 'Tradicional con Barral',
      description:
        'La combinación perfecta de diseño clásico y materiales de alta calidad, ideal para quienes aprecian la belleza en su máxima expresión.',
      imageUrl: tradicionalBarral,
-      url: '/tradicional-con-barral'
+      url: '/cortinas/tradicional-con-barral'
    },
    {
      title: 'Roller',
      description:
        'Simplicidad y modernidad, una solución minimalista para aquellos que buscan un estilo contemporáneo sin comprometer la sofisticación.',
        imageUrl: roller,
-     url: '/roller'
+     url: '/cortinas/roller'
    },
    {
      title: 'Bandas Verticales',
      description:
        'Su diseño estilizado permite un control efectivo de la luz, aportando un toque distintivo a la decoración de tus ambientes.',
      imageUrl: bandas,
-     url: '/bandas-verticales'
+     url: '/cortinas/bandas-verticales'
    },
    {
      title: 'Toldos Verticales',
      description:
        'Protege y embellece tus exteriores con nuestros toldos verticales, creados para ofrecer privacidad y estilo en armonía con la arquitectura de tu hogar.',
      imageUrl: toldos,
-     url: '/toldos-verticales'
+     url: '/cortinas/toldos-verticales'
    },
  ];
 

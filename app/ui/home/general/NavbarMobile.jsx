@@ -76,26 +76,26 @@ const AnimatedHamburgerButton = () => {
 
                         <div className='flex'>
 
-                            <Link href="/tradicional-con-riel" className="text-secondary" onClick={handleLinkClick}>Tradicional con Riel</Link>
+                            <Link href="/cortinas/tradicional-con-riel" className="text-secondary" onClick={handleLinkClick}>Tradicional con Riel</Link>
                         </div>
 
                         <div className='flex'>
 
-                            <Link href="/tradicional-con-barral" className="text-secondary" onClick={handleLinkClick}>Tradicional con Barral</Link>
+                            <Link href="/cortinas/tradicional-con-barral" className="text-secondary" onClick={handleLinkClick}>Tradicional con Barral</Link>
                         </div>
                         <div className='flex'>
 
-                            <Link href="/roller" className="text-secondary" onClick={handleLinkClick}>Cortina Roller</Link>
-                        </div>
-
-                        <div className='flex'>
-
-                            <Link href="/bandas-verticales" className="text-secondary " onClick={handleLinkClick}>Bandas Verticales</Link>
+                            <Link href="/cortinas/roller" className="text-secondary" onClick={handleLinkClick}>Cortina Roller</Link>
                         </div>
 
                         <div className='flex'>
 
-                            <Link href="/toldos-verticales" className="text-secondary " onClick={handleLinkClick}>Toldos Verticales</Link>
+                            <Link href="/cortinas/bandas-verticales" className="text-secondary " onClick={handleLinkClick}>Bandas Verticales</Link>
+                        </div>
+
+                        <div className='flex'>
+
+                            <Link href="/cortinas/toldos-verticales" className="text-secondary " onClick={handleLinkClick}>Toldos Verticales</Link>
                         </div>
 
                         <div>

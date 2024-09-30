@@ -16,11 +16,11 @@ const Footer = ({ faqsHref, serviceHref }) => {
                         <h3 className="font-arapey mb-2 text-xl lg:text-2xl">Nuestros productos</h3>
                         <hr className='border-t-2 border-secondary/50 w-[75%] mt-2 mb-4' />
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
-                            <li className="mb-2 hover:text-gray ease-in-out duration-300"><Link href={'/tradicional-con-riel'}>Cortina tradicional con riel</Link></li>
-                            <li className="mb-2 hover:text-gray ease-in-out duration-300"><Link href={'/tradicional-con-barral'}>Cortina tradicional con barral</Link></li>
-                            <li className="mb-2  hover:text-gray ease-in-out duration-300"><Link href={'/roller'}>Cortina roller</Link></li>
-                            <li className="mb-2 hover:text-gray ease-in-out duration-300"><Link href={'/bandas-verticales'}>Bandas verticales</Link></li>
-                            <li className="mb-2 hover:text-gray ease-in-out duration-300"><Link href={'/toldos-verticales'}>Toldos verticales</Link></li>
+                            <li className="mb-2 hover:text-gray ease-in-out duration-300"><Link href={'/cortinas/tradicional-con-riel'}>Cortina tradicional con riel</Link></li>
+                            <li className="mb-2 hover:text-gray ease-in-out duration-300"><Link href={'/cortinas/tradicional-con-barral'}>Cortina tradicional con barral</Link></li>
+                            <li className="mb-2  hover:text-gray ease-in-out duration-300"><Link href={'/cortinas/roller'}>Cortina roller</Link></li>
+                            <li className="mb-2 hover:text-gray ease-in-out duration-300"><Link href={'/cortinas/bandas-verticales'}>Bandas verticales</Link></li>
+                            <li className="mb-2 hover:text-gray ease-in-out duration-300"><Link href={'/cortinas/toldos-verticales'}>Toldos verticales</Link></li>
                         </ul>
                     </div>
 
