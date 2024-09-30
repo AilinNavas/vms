@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const InfoTop = ({ faqsHref }) => {
     return (
-        <div className='h-10 w-full bg-secondary hidden md:block pt-1.5 font-assistant top-0 fixed'>
+        <div className='h-10 w-full bg-secondary hidden md:block pt-1.5 font-assistant top-0 fixed z-50'>
             <div className="px-4 max-w-7xl mx-auto space-y-4">
                 <div className='text-primary flex items-center md:justify-end lg:justify-between'>
                     <p className='items-center hidden lg:flex justify-end'>
