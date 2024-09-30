@@ -5,7 +5,7 @@ import rollerSuns4 from '@/public/roller/hero/rollersunscreen4.webp'
 import rollerSuns1 from '@/public/roller/hero/rollersunscreen1.webp'
 
 import rielAlgodon from '@/public/tradicional/hero/conRiel/gasaAlgodon.webp'
-import rielIndu from '@/public/tradicional/hero/conRiel/gasaHindu.webp'
+import rielHindu from '@/public/tradicional/hero/conRiel/gasaHindu.webp' 
 import rielVoile from '@/public/tradicional/hero/conRiel/voileDeHilo.webp'
 import rielGros from '@/public/tradicional/hero/conRiel/combinadaGros.webp'
 import rielBlackout from '@/public/tradicional/hero/conRiel/blackout.webp'
@@ -66,7 +66,7 @@ const heroProducts = {
       {
         title: "Gasa Hindú",
         description: "Ligera, fresca y suave transparencia elegante.",
-        image: rielIndu
+        image: rielHindu
       },
       {
         title: "Voile de Hilo / Crepe / Crash / Camile / Leonor",
