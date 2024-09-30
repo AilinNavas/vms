@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { motion, MotionConfig } from 'framer-motion';
 import Image from 'next/image';
-import logo from '@/public/logo2.svg';
+import logo from '@/public/icons/logo2.svg';
 
 const NavbarMobile = () => {
     return (
@@ -96,6 +96,12 @@ const AnimatedHamburgerButton = () => {
                         <div className='flex'>
 
                             <Link href="/toldos-verticales" className="text-secondary " onClick={handleLinkClick}>Toldos Verticales</Link>
+                        </div>
+
+                        <div>
+                            <a href={'https://walink.co/7712bc'} target='_blank' rel="noopener noreferrer">
+                                <button className="rounded-full px-6 py-2 text-lg font-assistant bg-secondary text-primary font-semibold border-secondary border-2 hover:bg-transparent hover:text-secondary ease-in duration-300">Contactar</button>
+                            </a>
                         </div>
 
                     </nav>

@@ -1,9 +1,9 @@
  import ProductCard from "./ProductCard";
- import tradicionalRiel from '@/public/cortinas/tradicionalRiel.png'
- import tradicionalBarral from '@/public/cortinas/tradicionalBarral.png'
- import roller from '@/public/cortinas/roller.png'
- import bandas from '@/public/cortinas/bandas.png'
- import toldos from '@/public/cortinas/toldos.png'
+ import tradicionalRiel from '@/public/cortinas/tradicionalRiel.webp'
+ import tradicionalBarral from '@/public/cortinas/tradicionalBarral.webp'
+ import roller from '@/public/cortinas/roller.webp'
+ import bandas from '@/public/cortinas/bandas.webp'
+ import toldos from '@/public/cortinas/toldos.webp'
 
 
  const products = [

@@ -12,7 +12,6 @@ import faqsProducts from "../ui/data/faqsProducts";
 import HeroProducts from "../ui/products/HeroProducts";
 import heroProducts from "../ui/data/heroProducts";
 import Footer from "../ui/home/general/Footer";
-import check from '@/public/check.svg'
 import NavbarMobile from "../ui/home/general/NavbarMobile";
 import Whatsapp from "../ui/home/general/Whatsapp";
 import ContactForm from "../ui/home/general/ContactForm";
@@ -21,14 +20,14 @@ export default function Tradicional() {
   const { title, description, images } = galleryData.tradicionalConRiel;
 
   const oneValues = [
-    { icon: check, text: 'Soluciones a medida' },
-    { icon: check, text: 'Materiales premium' },
-    { icon: check, text: 'Instalación sin inconvenientes' }
+    { text: 'Soluciones a medida' },
+    { text: 'Materiales premium' },
+    { text: 'Instalación sin inconvenientes' }
   ];
   const twoValues = [
-    { icon: check, text: 'Asesoramiento a domicilio' },
-    { icon: check, text: 'Satisfacción garantizada' },
-    { icon: check, text: '30 Años De Trayectoria' }
+    { text: 'Asesoramiento a domicilio' },
+    { text: 'Satisfacción garantizada' },
+    { text: '30 Años De Trayectoria' }
   ];
 
   return (

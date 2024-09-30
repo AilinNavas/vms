@@ -12,7 +12,8 @@ const Hero = () => {
                 {/* <span className="font-assistant text-primary text-xl md:text-3xl border-2 border-green-400">diferenciación y calidad superior</span> */}
             </div>
             <div className="px-4 max-w-7xl flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-2 mx-auto mt-4 ">
-                <Link href={'https://walink.co/7712bc'}><button className="rounded-full px-7 py-2 bg-primary border-2 border-primary text-secondary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-primary ease-in duration-300">Cotizar ahora</button></Link>
+                <a href={'https://walink.co/7712bc'} target="_blank"
+                    rel="noopener noreferrer"><button className="rounded-full px-7 py-2 bg-primary border-2 border-primary text-secondary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-primary ease-in duration-300">Cotizar ahora</button></a>
                 <Link href='#nuestros-cortinados' ><button className="rounded-full px-6 py-2 border-2 border-primary text-primary font-assistant text-lg font-bold hover:bg-secondary hover:text-primary ease-in duration-300">Ver proyectos</button></Link>
 
             </div>

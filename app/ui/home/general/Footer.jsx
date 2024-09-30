@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import logo from '@/public/logo2.svg'
+import logo from '@/public/icons/logo2.svg'
 import phone from '@/public/icons/phone2.svg'
 import email from '@/public/icons/email2.svg'
 import ig from '@/public/icons/instagram.svg'
@@ -32,7 +32,9 @@ const Footer = ({ faqsHref, serviceHref }) => {
                             <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer"><Link href={'/sobre-nosotros'}></Link>Empresa</li>
                             <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer"><Link href={serviceHref}>Servicios</Link></li>
                             <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer"><Link href={faqsHref}>Preguntas frecuentes</Link></li>
-                            <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer"><Link href={'https://walink.co/82c00b'}>¿Necesitas ayuda?</Link></li>
+                            <li className=" hover:text-gray ease-in-out duration-300 cursor-pointer">
+                                <a href={'https://walink.co/82c00b'} target="_blank"
+                                    rel="noopener noreferrer">¿Necesitas ayuda?</a></li>
                         </ul>
                     </div>
 

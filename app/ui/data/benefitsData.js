@@ -1,23 +1,24 @@
 // data/benefitsData.js
-import elegancia from '@/public/tradicional/benefits/conBarral/elegancia.png'
-import versatilidad from '@/public/tradicional/benefits/conBarral/versatilidad.png'
-import durabilidad from '@/public/tradicional/benefits/conBarral/durabilidad.png'
+import elegancia from '@/public/tradicional/benefits/conBarral/elegancia.webp'
+import versatilidad from '@/public/tradicional/benefits/conBarral/versatilidad.webp'
+import durabilidad from '@/public/tradicional/benefits/conBarral/durabilidad.webp'
 
-import suave from '@/public/tradicional/benefits/conRiel/suave.png'
-import sofisticada from '@/public/tradicional/benefits/conRiel/sofisticada.png'
-import tamaño from '@/public/tradicional/benefits/conRiel/tamaño.png'
+import suave from '@/public/tradicional/benefits/conRiel/suave.webp'
+import sofisticada from '@/public/tradicional/benefits/conRiel/sofisticada.webp'
+import tamaño from '@/public/tradicional/benefits/conRiel/tamaño.webp'
 
-import diseñoModerno from '@/public/roller/benefits/diseñoModerno.png';
-import controlLuz from '@/public/roller/benefits/controlLuz.png';
-import facilMantenimiento from '@/public/roller/benefits/facilMantenimiento.png';
+import diseñoModerno from '@/public/roller/benefits/diseñoModerno.webp';
+import controlLuz from '@/public/roller/benefits/controlLuz.webp';
+import facilMantenimiento from '@/public/roller/benefits/facilMantenimiento.webp';
 
-import bandasControlLuz from '@/public/bandas/benefits/controlLuz.png';
-import bandasResistencia from '@/public/bandas/benefits/resistencia.png';
-import bandasVentanal from '@/public/bandas/benefits/ventanal.png';
+import bandasControlLuz from '@/public/bandas/benefits/controlLuz.webp';
+import bandasResistencia from '@/public/bandas/benefits/resistencia.webp';
+import bandasVentanal from '@/public/bandas/benefits/ventanal.webp';
 
-import t1 from '@/public/tradicional/grid/squareT1.png'
-import t2 from '@/public/tradicional/grid/squareT2.png'
-import t3 from '@/public/tradicional/grid/squareT3.png'
+import proteccion from '@/public/toldo/benefits/proteccion.webp'
+import privacidad from '@/public/toldo/benefits/privacidad.webp'
+import estilo from '@/public/toldo/benefits/estilo.webp'
+
 
  const benefitsData = {
     
@@ -158,7 +159,7 @@ import t3 from '@/public/tradicional/grid/squareT3.png'
           "Los toldos verticales ofrecen una excelente barrera contra los rayos solares, protegiendo el interior del hogar del calor excesivo. Esta característica no solo mejora el confort, sino que también ayuda a reducir los costos de climatización, haciendo del toldo una solución práctica y económica.",
           "Además, los toldos verticales protegen las superficies interiores y exteriores de la decoloración y el desgaste, preservando la estética y el valor de la propiedad.",
         ],
-        image: t1,
+        image: proteccion,
           alt: 'Toldos verticales 1'
       },
       {
@@ -168,7 +169,7 @@ import t3 from '@/public/tradicional/grid/squareT3.png'
           "Estos toldos permiten mantener la privacidad de los espacios interiores sin perder la conexión con el exterior. Son ideales para balcones y terrazas, donde es importante disfrutar de la vista sin comprometer la intimidad del hogar. ",
           "Su diseño adaptable permite elegir entre diferentes grados de opacidad, lo que brinda la posibilidad de personalizar el nivel de privacidad según la necesidad, mientras se mantiene un estilo elegante y moderno.",
         ],
-        image: t2,
+        image: privacidad,
         alt: 'Toldos verticales 2'
       },
       {
@@ -178,7 +179,7 @@ import t3 from '@/public/tradicional/grid/squareT3.png'
           "Los toldos verticales no solo protegen, sino que también añaden un toque de estilo a las áreas exteriores. Disponibles en una variedad de colores y materiales, se integran perfectamente en la estética del hogar, convirtiéndose en un elemento decorativo que también cumple con su función práctica.",
           "Además, su instalación profesional garantiza un ajuste perfecto y un funcionamiento suave, lo que contribuye a la durabilidad y eficiencia del toldo en cualquier condición climática.",
         ],
-        image: t3,
+        image: estilo,
         alt: 'Toldos verticales 3'
       },
     ],

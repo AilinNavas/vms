@@ -1,8 +1,8 @@
 
 import Image from 'next/image';
-import telas from '@/public/porque/telas.jpg'
-import medida from '@/public/porque/medida.png'
-import limpieza from '@/public/porque/limpieza.png'
+import telas from '@/public/porque/telas.webp'
+import medida from '@/public/porque/medida.webp'
+import limpieza from '@/public/porque/limpieza.webp'
 
 const features = [
   {

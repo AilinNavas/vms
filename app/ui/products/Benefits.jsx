@@ -1,5 +1,4 @@
 
-import React from 'react'
 import Image from 'next/image'
 
 
@@ -21,7 +20,7 @@ const Benefits = ({ benefits }) => {
                 <p key={index} className='font-assistant text-gray text-lg md:text-xl'>{text}</p>
               ))}
               <div className='text-center'>
-                <a href={'https://walink.co/82c00b'} target='_blank'><button className="rounded-full px-6 py-2 bg-secondary border-secondary border-2 text-primary font-assistant text-lg font-semibold z-0 mt-6 lg:mt-10 hover:bg-transparent hover:text-secondary ease-in duration-300">Obtener una asesoría personalizada</button></a>
+                <a href={'https://walink.co/82c00b'} target='_blank'  rel="noopener noreferrer"><button className="rounded-full px-6 py-2 bg-secondary border-secondary border-2 text-primary font-assistant text-lg font-semibold z-0 mt-6 lg:mt-10 hover:bg-transparent hover:text-secondary ease-in duration-300">Obtener una asesoría personalizada</button></a>
               </div>
             </div>
           </div>

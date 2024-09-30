@@ -1,28 +1,28 @@
 
-import rollerBlackout from '@/public/roller/hero/rollerblackout.png'
-import rollerSuns5 from '@/public/roller/hero/rollersunscreen5.png'
-import rollerSuns4 from '@/public/roller/hero/rollersunscreen4.png'
-import rollerSuns1 from '@/public/roller/hero/rollersunscreen1.png'
+import rollerBlackout from '@/public/roller/hero/rollerblackout.webp'
+import rollerSuns5 from '@/public/roller/hero/rollersunscreen5.webp'
+import rollerSuns4 from '@/public/roller/hero/rollersunscreen4.webp'
+import rollerSuns1 from '@/public/roller/hero/rollersunscreen1.webp'
 
-import rielAlgodon from '@/public/tradicional/hero/conRiel/gasaAlgodon.png'
-import rielIndu from '@/public/tradicional/hero/conRiel/gasaIndu.png'
-import rielVoile from '@/public/tradicional/hero/conRiel/voileDeHilo.png'
-import rielGros from '@/public/tradicional/hero/conRiel/combinadaGros.png'
-import rielBlackout from '@/public/tradicional/hero/conRiel/blackout.png'
+import rielAlgodon from '@/public/tradicional/hero/conRiel/gasaAlgodon.webp'
+import rielIndu from '@/public/tradicional/hero/conRiel/gasaHindu.webp'
+import rielVoile from '@/public/tradicional/hero/conRiel/voileDeHilo.webp'
+import rielGros from '@/public/tradicional/hero/conRiel/combinadaGros.webp'
+import rielBlackout from '@/public/tradicional/hero/conRiel/blackout.webp'
 
-import barralIndu from '@/public/tradicional/hero/conBarral/gasaIndu.png'
-import barralAlgodon from '@/public/tradicional/hero/conBarral/gasaAlgodon.png'
-import barralTusor from '@/public/tradicional/hero/conBarral/tulsor.png'
-import barralBlack from '@/public/tradicional/hero/conBarral/blackout.png'
-import barralVoile from '@/public/tradicional/hero/conBarral/voile.png'
+import barralIndu from '@/public/tradicional/hero/conBarral/gasaHindu.webp'
+import barralAlgodon from '@/public/tradicional/hero/conBarral/gasaAlgodon.webp'
+import barralTusor from '@/public/tradicional/hero/conBarral/tulsor.webp'
+import barralBlack from '@/public/tradicional/hero/conBarral/blackout.webp'
+import barralVoile from '@/public/tradicional/hero/conBarral/voile.webp'
 
-import bandasBlackout from '@/public/bandas/hero/blackout.png'
-import bandasTranslucidas from '@/public/bandas/hero/translucida.png'
-import bandasSunscreen from '@/public/bandas/hero/sunscreen.png'
+import bandasBlackout from '@/public/bandas/hero/blackout.webp'
+import bandasTranslucidas from '@/public/bandas/hero/translucida.webp'
+import bandasSunscreen from '@/public/bandas/hero/sunscreen.webp'
 
-import toldoLonaVinilica from '@/public/toldo/hero/lona.png'
-import toldoSunscreen from '@/public/toldo/hero/sunscreen.png'
-import toldoPVCcristal from '@/public/toldo/hero/cristal.png'
+import toldoLonaVinilica from '@/public/toldo/hero/lona.webp'
+import toldoSunscreen from '@/public/toldo/hero/sunscreen.webp'
+import toldoPVCcristal from '@/public/toldo/hero/cristal.webp'
 
 const heroProducts = {
   tradicionalConBarral: {

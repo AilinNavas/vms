@@ -1,6 +1,5 @@
-import React from 'react'
 import MasonryGrid from './MasonryGrid'
-import Link from 'next/link'
+
 const Gallery = ({ title, description, images }) => {
   return (
     <section className='bg-gray'>
@@ -15,7 +14,7 @@ const Gallery = ({ title, description, images }) => {
           <MasonryGrid images={images} />
         </div>
         <div className='text-center'>
-        <Link href={'https://walink.co/82c00b'}><button className="rounded-full px-6 py-2 bg-primary border-2 border-primary text-secondary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-primary ease-in duration-300">Obtener una asesoria personalizada</button></Link>
+        <a href={'https://walink.co/82c00b'} target='_blank' rel="noopener noreferrer"><button className="rounded-full px-6 py-2 bg-primary border-2 border-primary text-secondary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-primary ease-in duration-300">Obtener una asesoria personalizada</button></a>
         </div>
       </div> 
     

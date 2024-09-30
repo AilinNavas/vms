@@ -1,5 +1,4 @@
 import Accordion from "./general/Accordion";
-import Link from "next/link";
 
 const Faqs = ({ title, description, items, id }) => {
   return (
@@ -9,7 +8,7 @@ const Faqs = ({ title, description, items, id }) => {
         <p className="font-assistant text-gray pb-4">{description}</p>
         <Accordion items={items} />
         <div className='text-center mt-10'>
-        <Link href={'https://walink.co/82c00b'}><button className="rounded-full px-6 py-2 bg-secondary border-2 border-secondary text-primary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-secondary ease-in duration-300">Obtener una asesoria personalizada</button></Link>
+        <a href={'https://walink.co/82c00b'} target='_blank'  rel="noopener noreferrer"><button className="rounded-full px-6 py-2 bg-secondary border-2 border-secondary text-primary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-secondary ease-in duration-300">Obtener una asesoria personalizada</button></a>
         </div>
 
       </div>
