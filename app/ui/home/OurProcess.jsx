@@ -20,8 +20,8 @@
 
 
    return (
-     <section className='bg-primary'>
-       <div className='mx-auto max-w-7xl pt-32 pb-16 px-4 flex flex-col justify-center'>
+     <section className='bg-primary '>
+       <div className='mx-auto max-w-7xl pt-16 lg:pt-32 lg:pb-16 px-4 flex flex-col justify-center'>
          <header className='pb-8'>
            <h2 className='text-secondary font-arapey text-3xl md:text-5xl'>Nuestro proceso</h2>
          </header>
@@ -33,8 +33,8 @@
 
              >
                <div className="flex items-center justify-start mb-4">
-                 <span className="font-arapey text-secondary text-2xl md:text-3xl mr-2">{value.number}</span> 
-                 <h3 className="text-2xl md:text-3xl  text-secondary font-arapey">{value.title}</h3>
+                 <span className="font-arapey text-secondary text-2xl lg:text-3xl mr-2">{value.number}</span> 
+                 <h3 className="text-2xl lg:text-3xl text-secondary font-arapey">{value.title}</h3>
                </div>
                <p className="text-gray text-left font-assistant text-lg md:text-xl ">{value.detail}</p>
              </div>
