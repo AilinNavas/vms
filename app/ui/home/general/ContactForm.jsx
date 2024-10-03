@@ -39,7 +39,7 @@ Tipo de Cortina: ${formData.curtainType}
 Tipo de Tela: ${formData.fabricType ? formData.fabricType : 'No especificado'}
 Dimensiones de la ventana: ${formData.width ? formData.width + ' metros' : 'No especificado'} x ${formData.height ? formData.height + ' metros' : 'No especificado'}`;
 
-    const whatsappUrl = `https://wa.me/543586011006?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/543518507607?text=${encodeURIComponent(whatsappMessage)}`;
     
     window.open(whatsappUrl, '_blank');
 
