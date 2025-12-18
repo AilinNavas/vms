@@ -52,7 +52,7 @@ const Footer = ({ faqsHref, serviceHref }) => {
                                 <Link href={faqsHref}>Preguntas frecuentes</Link>
                             </li>
                             <li className="hover:text-gray ease-in-out duration-300">
-                                <a href={'https://walink.co/82c00b'} target="_blank" rel="noopener noreferrer">
+                                <a href={'https://wa.link/la8w0v'} target="_blank" rel="noopener noreferrer">
                                     ¿Necesitas ayuda?
                                 </a>
                             </li>
@@ -66,16 +66,16 @@ const Footer = ({ faqsHref, serviceHref }) => {
                         <ul className="space-y-2 font-assistant text-lg lg:text-xl">
                             <li className="flex items-center">
                                 <Image src={phone} alt='Icono de teléfono' className="w-6 h-6 mr-1" /> 
-                                <span>+549 351-158507607</span>
+                                <span>+549 351-6630886</span>
                             </li>
                             <li className="flex items-center">
                                 <Image src={email} alt='Icono de correo electrónico' className="w-5 h-5 mr-2" />
                                 <span>ventas@vmscortinados.com</span>
                             </li>
                             <li className="flex items-center mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">
-                                <a href={'https://walink.co/82c00b'} target='_blank' rel="noopener noreferrer" className="flex items-center">
+                                <a href={'https://wa.link/la8w0v'} target='_blank' rel="noopener noreferrer" className="flex items-center">
                                     <Image src={ws} alt='Icono de WhatsApp' className="w-5 h-5 mr-2" />
-                                    <span>+549 351-158507607</span>
+                                    <span>+549 351-6630886</span>
                                 </a>
                             </li>
                             <li className="flex items-center mt-2 hover:text-gray ease-in-out duration-300 cursor-pointer">
