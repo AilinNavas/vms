@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link href={'/cortinas/toldos-verticales'}><li className="hover:text-gray ease-in-out duration-300 ">Toldos Verticales</li></Link>
           </ul>
           <div className="hidden lg:flex ml-12">
-            <a href={'https://wa.link/la8w0v'} target='_blank'  rel="noopener noreferrer">
+            <a href={'https://wa.link/ifl5gf'}target='_blank'  rel="noopener noreferrer">
               <button className="rounded-full px-6 py-2 text-lg font-assistant bg-secondary text-primary font-semibold border-secondary border-2 hover:bg-transparent hover:text-secondary ease-in duration-300">Contactar</button>
             </a>
           </div>

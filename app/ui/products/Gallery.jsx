@@ -14,7 +14,7 @@ const Gallery = ({ title, description, images }) => {
           <MasonryGrid images={images} />
         </div>
         <div className='text-center'>
-        <a href={'https://wa.link/la8w0v'} target='_blank' rel="noopener noreferrer"><button className="rounded-full px-6 py-2 bg-primary border-2 border-primary text-secondary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-primary ease-in duration-300">Obtener una asesoria personalizada</button></a>
+        <a href={'https://wa.link/ifl5gf'} target='_blank' rel="noopener noreferrer"><button className="rounded-full px-6 py-2 bg-primary border-2 border-primary text-secondary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-primary ease-in duration-300">Obtener una asesoria personalizada</button></a>
         </div>
       </div> 
     

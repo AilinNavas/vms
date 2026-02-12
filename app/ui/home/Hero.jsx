@@ -15,7 +15,7 @@ const Hero = () => {
             
             <div className="px-4 max-w-7xl mx-auto mt-4">
                 <div className=" flex flex-col md:flex-row w-44 md:w-96 md:items-center space-y-2 md:space-y-0 md:space-x-2">
-                <a href={'https://wa.link/la8w0v'} target="_blank"
+                <a href={'https://wa.link/ifl5gf'} target="_blank"
                     rel="noopener noreferrer">
                     <button className="w-full rounded-full px-7 py-1 md:py-2 bg-primary border-2 border-primary text-secondary font-assistant text-lg font-semibold z-0 hover:bg-transparent hover:text-primary ease-in duration-300">
                         Cotizar ahora
